@@ -12,12 +12,11 @@ class TGDDItem(scrapy.Item):
     images_intro = scrapy.Field()
     price = scrapy.Field()
     title = scrapy.Field()
-    warranties = scrapy.Field()
-    promotions = scrapy.Field()
     hot_line = scrapy.Field()
     informations = scrapy.Field()
     rating = scrapy.Field()
     link_source = scrapy.Field()
+    branch = scrapy.Field()
     pass
 
 
