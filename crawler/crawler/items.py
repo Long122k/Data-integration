@@ -17,17 +17,18 @@ class TGDDItem(scrapy.Item):
     rating = scrapy.Field()
     link_source = scrapy.Field()
     branch = scrapy.Field()
+    type = scrapy.Field()
+    # 'Màn hình' = scrapy.Field()
     pass
 
 
-class CPhonesItem(scrapy.Item):
+class DMXItem(scrapy.Item):
     images_intro = scrapy.Field()
     price = scrapy.Field()
     title = scrapy.Field()
-    warranties = scrapy.Field()
-    promotions = scrapy.Field()
     hot_line = scrapy.Field()
     informations = scrapy.Field()
     rating = scrapy.Field()
     link_source = scrapy.Field()
+    branch = scrapy.Field()
     pass
