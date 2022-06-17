@@ -1,269 +1,89 @@
-url,title,price,producer,size,pin,weight,hdh,chip,ram,memory
-https://cellphones.com.vn/iphone-11.html,"
-                        iPhone 11 64GB I Chính hãng VN/A                                             ",11.490.000 ₫,apple,6.1 inches,3110 mAh,194 g,iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành),A13 Bionic,4 GB,64 GB
-https://cellphones.com.vn/iphone-13-pro-max.html,"
-                        iPhone 13 Pro Max 128GB | Chính hãng VN/A                                            ",29.790.000 ₫,apple,6.7 inches,"4,325mAh",240g,iOS15,Apple A15,6 GB,128 GB
-https://cellphones.com.vn/iphone-11-pro-max.html,"
-                        iPhone 11 Pro Max Chính hãng VN/A                                            ",26.000.000 ₫,apple,6.5 inches,3969 mAh,226g,iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành),A13 Bionic,4 GB,64 GB
-https://cellphones.com.vn/iphone-12-pro-max.html,"
-                        iPhone 12 Pro Max 128GB I Chính hãng VN/A                                             ",27.000.000 ₫,apple,6.7 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",228 ,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),6 GB,128 GB
-https://cellphones.com.vn/iphone-13.html,"
-                        iPhone 13 128GB | Chính hãng VN/A                                            ",21.450.000 ₫,apple,6.1 inches,Khoảng 3.200mAh,174g, iOS 15,Apple A15,4 GB,128 GB
-https://cellphones.com.vn/iphone-11-128gb.html,"
-                        iPhone 11 128GB I Chính hãng VN/A                                             ",13.500.000 ₫,apple,6.1 inches,3110 mAh,194 g,iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành),A13 Bionic,4 GB,128 GB
-https://cellphones.com.vn/iphone-13-pro.html,"
-                        iPhone 13 Pro 128GB | Chính hãng VN/A                                            ",27.500.000 ₫,apple,6.1 inches,"3,095mAh",204g,iOS15,Apple A15,6 GB,128 GB
-https://cellphones.com.vn/iphone-13-xanh-la.html,"
-                        iPhone 13 128GB - Xanh lá | Chính hãng VN/A                                            ",21.650.000 ₫,apple,6.1 inches,"3,095mAh",174g, iOS 15,Apple A15,,128 GB
-https://cellphones.com.vn/iphone-12-128gb.html,"
-                        iPhone 12 128GB I Chính hãng VN/A                                             ",17.990.000 ₫,apple,6.1 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",164 g,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),4 GB,128 GB
-https://cellphones.com.vn/iphone-13-pro-max-256gb.html,"
-                        iPhone 13 Pro Max 256GB I Chính hãng VN/A                                            ",32.190.000 ₫,apple,6.7 inches,"4,325mAh",240g,iOS15,Apple A15,6 GB,256 GB
-https://cellphones.com.vn/iphone-12-mini.html,"
-                        iPhone 12 mini 64GB I Chính hãng VN/A                                             ",15.000.000 ₫,apple,5.4 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",135 g,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),4 GB,64 GB
-https://cellphones.com.vn/iphone-13-pro-max-xanh-la.html,"
-                        iPhone 13 Pro Max 128GB - Xanh lá | Chính hãng VN/A                                            ",29.790.000 ₫,apple,6.7 inches,"4,325mAh",240g,iOS15,Apple A15,,128 GB
-https://cellphones.com.vn/apple-iphone-xr-64-gb-chinh-hang-vn.html,"
-                        iPhone XR 64GB I Chính hãng VN/A                                             ",12.500.000 ₫,apple,6.1 inches,2942mAh,194 g,iOS 14,Apple A12 Bionic,3 GB,64 GB
-https://cellphones.com.vn/iphone-12-pro.html,"
-                        iPhone 12 Pro 128GB I Chính hãng VN/A                                             ",25.500.000 ₫,apple,6.1 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",189 g,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),6 GB,128 GB
-https://cellphones.com.vn/iphone-13-pro-128gb-xanh-la.html,"
-                        iPhone 13 Pro 128GB - Xanh lá | Chính hãng VN/A                                            ",27.700.000 ₫,apple,6.1 inches,"3,095mAh",204g,iOS15,Apple A15,,128 GB
-https://cellphones.com.vn/iphone-13-mini.html,"
-                        iPhone 13 mini 128GB | Chính hãng VN/A                                            ",17.490.000 ₫,apple,5.4 inches,"2,406mAh",141g,iOS15,Apple A15,4 GB,128 GB
-https://cellphones.com.vn/iphone-13-256gb.html,"
-                        iPhone 13 256GB | Chính hãng VN/A                                            ",23.500.000 ₫,apple,6.1 inches,"Khoảng 3,200mAh",174g, iOS 15,Apple A15,4 GB,256 GB
-https://cellphones.com.vn/iphone-12-pro-max-256gb.html,"
-                        iPhone 12 Pro Max 256GB I Chính hãng VN/A                                             ",29.000.000 ₫,apple,6.7 inches,"Li-Ion, sạc nhanh 18W, sạc không dây 15W, USB Power Delivery 2.0",228 ,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),6 GB,256 GB
-https://cellphones.com.vn/iphone-12-pro-256gb.html,"
-                        iPhone 12 Pro 256GB I Chính hãng VN/A                                             ",26.000.000 ₫,apple,6.1 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",189 g,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),6 GB,256 GB
-https://cellphones.com.vn/iphone-13-256-gb-xanh-la.html,"
-                        iPhone 13 256GB - Xanh lá | Chính hãng VN/A                                            ",23.950.000 ₫,apple,6.1 inches,"3,095mAh",174g, iOS 15,Apple A15,,256 GB
-https://cellphones.com.vn/samsung-galaxy-note-20-ultra-5g.html,"
-                        Samsung Galaxy Note 20 Ultra 5G                                            ",18.990.000 ₫,samsung,6.9 inches,Non-removable Li-Ion 4500 mAh battery Fast charging 25W USB Power Delivery 3.0 Fast Qi/PMA wireless charging Reverse wireless charging 9W,208 g,"Android 10, One UI 2.1",Exynos 990 (7 nm+),12 GB,256 GB
-https://cellphones.com.vn/samsung-galaxy-s21-fe.html,"
-                        Samsung Galaxy S21 FE 5G (6GB - 128GB)                                            ",11.290.000 ₫,samsung,6.4 inches,4500mAh,,,Exynos 2100 (5nm),6 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a52s.html,"
-                        Samsung Galaxy A52s 5G                                            ",7.850.000 ₫,samsung,6.5 inches,4500 mAh,189 g,"Android 11, One UI 3.1",Snapdragon 778G 5G 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a52.html,"
-                        Samsung Galaxy A52                                            ",8.500.000 ₫,samsung,6.5 inches,Li-Po 4500 mAh,189 g,"Android 11, One UI 3.0",Snapdragon 720G (8 nm),8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a23.html,"
-                        Samsung Galaxy A23                                            ",4.950.000 ₫,samsung,6.6 inches,5.000 mAh,195 g,Android 11,Snapdragon 680 (SM6225),4 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a72.html,"
-                        Samsung Galaxy A72                                            ",10.100.000 ₫,samsung,6.7 inches,Li-Ion 5000 mAh,203 g,"Android 11, One UI 3.0",Snapdragon 720G (8 nm),8 GB,256 GB
-https://cellphones.com.vn/samsung-galaxy-s20-fe.html,"
-                        Samsung Galaxy S20 FE 256GB (Fan Edition)                                            ",11.990.000 ₫,samsung,6.5 inches,"Li-Po 4500 mAh, sạc nhanh 25W, sạc không dây cho các thiết bị ngoại vi 5.4W",190 g,"Android 10, One UI 2.5",Snapdragon 865,8 GB,256 GB
-https://cellphones.com.vn/samsung-galaxy-a12.html,"
-                        Samsung Galaxy A12                                            ",3.750.000 ₫,samsung,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 15W",205 g,Android 10,Helio G35,4 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-s20-ultra.html,"
-                        Samsung Galaxy S20 Ultra                                            ",16.000.000 ₫,samsung,6.9 inches,Li-Po 5000 mAh,222 g,Android 10.0; One UI 2,Exynos 990 (7 nm+),12 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a71.html,"
-                        Samsung Galaxy A71                                            ",7.700.000 ₫,samsung,6.7 inches, 4500 mAh,179 g,Android 10,Qualcomm Snapdragon 730 ,8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-note-20.html,"
-                        Samsung Galaxy Note 20                                            ",15.000.000 ₫,samsung,6.7 inches,Non-removable Li-Ion 4300 mAh battery Fast charging 25W USB Power Delivery 3.0 Fast Qi/PMA wireless charging Reverse wireless charging 9W,192 g,"Android 10, One UI 2.5",Exynos 990 (7 nm+),8 GB,256 GB
-https://cellphones.com.vn/samsung-galaxy-a51.html,"
-                        Samsung Galaxy A51                                            ",6.500.000 ₫,samsung,6.5 inches,4000mAh,172 g,10,Exynos 9611,6 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-s21-fe-8gb-128gb.html,"
-                        Samsung Galaxy S21 FE 8GB 128GB                                            ",12.790.000 ₫,samsung,6.4 inches,4500mAh,,,Exynos 2100 (5nm),8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a31.html,"
-                        Samsung Galaxy A31                                            ",5.150.000 ₫,samsung,6.4 inches,"5.000 mAh - Tiết kiệm pin, Sạc pin nhanh 15W",185 g,Android 10,MediaTek MT6768 8 nhân (Helio P65),6 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-a22.html,"
-                        Samsung Galaxy A22 4G                                            ",4.700.000 ₫,samsung,6.4 inches,5000mAh,186g,Android,MediaTek Helio G80,6 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-z-flip-3-flex-your-way.html,"
-                        Galaxy Z Flip3 5G Flex Your Way 2022                                             ",18.790.000 ₫,samsung,6.7 inches, 3300 mAh,183g,Android 11,Snapdragon 888 8 (5nm),8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-s21-plus.html,"
-                        Samsung Galaxy S21 Plus 5G                                            ",16.990.000 ₫,samsung,6.7 inches,"- Li-Po 4,800 mAh  - Sạc nhanh có dây 25W, tương thích chuẩn PD 3.0  - Sạc nhanh không dây 15W  - Sạc ngược không dây 4.5W",200 g,"Android 11, One UI 3.0",Exynos 2100 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-note-20-ultra.html,"
-                        Samsung Galaxy Note 20 Ultra                                            ",19.200.000 ₫,samsung,6.9 inches,"- Li-Ion 4,500 mAh -Sạc nhanh có dây 25W, hỗ trợ chuẩn PD 3.0 - Sạc nhanh không dây - Sạc ngược không dây 9W",208 g,"Android 10, One UI 2.1",Exynos 990 (7 nm+),8 GB,256 GB
-https://cellphones.com.vn/samsung-galaxy-note-10-lite.html,"
-                        Samsung Galaxy Note 10 Lite                                            ",10.500.000 ₫,samsung,6.7 inches,4500 mAh,199 g,Android 10,Exynos 9810 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/samsung-galaxy-s20-plus.html,"
-                        Samsung Galaxy S20+ (Plus)                                            ",15.500.000 ₫,samsung,6.7 inches,"Li-Po 4500 mAh, Sạc nhanh 25W, Sạc không dây 15W",186 g,Android 10,Exynos 990 (7 nm+),8 GB,128 GB
-https://cellphones.com.vn/xiaomi-redmi-note-11-pro-plus.html,"
-                        Xiaomi Redmi Note 11 Pro Plus 5G                                            ",9.200.000 ₫,xiaomi,6.67 inches,Li-Po 4500 mAh,204 g,"Android 11, MIUI 12.5",MediaTek Dimensity 920 5G (6 nm),8 GB,256 GB
-https://cellphones.com.vn/xiaomi-mi-11-lite.html,"
-                        Xiaomi Mi 11 Lite 5G                                            ",7.490.000 ₫,xiaomi,6.55 inches,Li-Po 4250 mAh,159 g,"Android 11, MIUI 12",Snapdragon 780G (5 nm),8 GB,128 GB
-https://cellphones.com.vn/oppo-reno7-z.html,"
-                        OPPO Reno7 Z (5G)                                            ",9.390.000 ₫,oppo,6.43 inches,"4,500 mAh",173g,Android 11 - ColorOS 12,Snapdragon 695 5G 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/oppo-reno-6z.html,"
-                        OPPO Reno6 Z 5G                                            ",6.990.000 ₫,oppo,6.43 inches,4310mAh (Typ),173g,"ColorOS 11.3, nền tảng Android 11",MediaTek Dimensity 800U 5G 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/oppo-reno-7.html,"
-                        OPPO Reno7 (5G)                                            ",11.490.000 ₫,oppo,6.4 inches,Li-Po 4500 mAh,160.6 x 73.2 x 7.81 mm,"Android 11, ColorOS 12",MediaTek Dimensity 900,8 GB,256 GB
-https://cellphones.com.vn/oppo-a95.html,"
-                        OPPO A95                                            ",6.090.000 ₫,oppo,6.43 inches,5000mAh,175g,"ColorOS 11.1, Android 11",Qualcomm® Snapdragon™ 662,8 GB,128 GB
-https://cellphones.com.vn/oppo-reno-6.html,"
-                        OPPO Reno6 5G                                            ",10.390.000 ₫,oppo,6.43 inches, Li-P0 4300 mAh,182 g ,"Android 11, ColorOS 11.3",MT6877 Dimensity 900 5G (6 nm),8 GB,128 GB
-https://cellphones.com.vn/oppo-reno-4-pro.html,"
-                        OPPO Reno4 Pro                                            ",7.990.000 ₫,oppo,6.5 inches,"Li-Po 4000 mAh battery, Fast charging 30W, 60% in 15 min, 100% in 36 min (advertised), SuperVOOC 2.0",Khoảng 161g (Bao gồm pin),"ColorOS 7.2, nền tảng Android 10",Qualcomm SM7125 Snapdragon 720G (8 nm),8 GB,256 GB
-https://cellphones.com.vn/oppo-reno7-128gb.html,"
-                        OPPO Reno7 4G (8GB - 128GB)                                            ",7.890.000 ₫,oppo,6.43 inches,4500 mAh,175g,"Android 11, ColorOS 12",Snapdragon™ 680,8 GB,128 GB
-https://cellphones.com.vn/oppo-reno-5-5g.html,"
-                        OPPO Reno5 5G                                            ",8.990.000 ₫,oppo,6.43 inches,"4300mAh (Typ), Sạc siêu nhanh",Khoảng 172g (Bao gồm pin) - màu Đen Khoảng 180g (Bao gồm pin) - màu Bạc,"ColorOS 11.1, Nền tảng Android 11",Qualcomm SM7250 Snapdragon 765G (7 nm),8 GB,128 GB
-https://cellphones.com.vn/oppo-a16.html,"
-                        Oppo A16                                            ",3.490.000 ₫,oppo,6.52 inches,Li-Po 5000 mAh,190 g,"Android 11, ColorOS 11.1", MediaTek Helio G35,3 GB,32 GB
-https://cellphones.com.vn/oppo-a16k.html,"
-                        OPPO A16K                                            ",3.190.000 ₫,oppo,6.52 inches,4230 mA,175g,,"Helio G35 8 nhân, tối đa 2.3GHz",3 GB,32 GB
-https://cellphones.com.vn/oppo-a94.html,"
-                        OPPO A94                                            ",5.690.000 ₫,oppo,6.43 inches,Li-Po 4310mAh,172g,"ColorOS 11.1, nền tảng Android 11","Helio P95, tối đa 2.2GHz",8 GB,128 GB
-https://cellphones.com.vn/oppo-a55.html,"
-                        OPPO A55                                            ",4.290.000 ₫,oppo,6.5 inches,Li-Po 5000 mAh,193 g,"Android 11, ColorOS 11.1",MediaTek Helio G35,4 GB,64 GB
-https://cellphones.com.vn/oppo-a76.html,"
-                        OPPO A76                                            ",5.390.000 ₫,oppo,6.56 inches,Li-Po 5000 mAh,189 g,"Android 11, ColorOS 11.1",Snapdragon 680 4G (6 nm),6 GB,128 GB
-https://cellphones.com.vn/oppo-reno-5.html,"
-                        OPPO Reno5                                            ",7.790.000 ₫,oppo,6.43 inches,"4310mAh (Typ), Sạc siêu nhanh",Khoảng 171g (Bao gồm pin),"ColorOS 11.1, Nền tảng Android 11","Qualcomm Snapdragon 720G, tối đa 2.3GHz",8 GB,128 GB
-https://cellphones.com.vn/oppo-a15.html,"
-                        OPPO A15                                            ",3.290.000 ₫,oppo,6.22 inches ,Li-Po 4230 mAh,175 g,Android 10,Mediatek MT6765 Helio P35 (12nm),3 GB,32 GB
-https://cellphones.com.vn/oppo-find-x3-pro.html,"
-                        OPPO Find X3 Pro 5G                                            ",18.790.000 ₫,oppo,6.7 inches,4500mAh,193 g,"ColorOS 11.2, nền tảng Android 11",Snapdragon 888 (5 nm),12 GB,256 GB
-https://cellphones.com.vn/oppo-a54.html,"
-                        Oppo A54                                            ",4.350.000 ₫,oppo,6.5 inches,Li-Po 5000 mAh,192 g,"Android 10, ColorOS 7.2",Mediatek MT6765 Helio P35 (12nm),4 GB,128 GB
-https://cellphones.com.vn/oppo-find-x2.html,"
-                        OPPO Find X2                                            ",18.990.000 ₫,oppo,6.7 inches,"4200 mAh Li-Ion, Hỗ trợ sạc nhanh",196 g,"Android 10.0 , ColorOS 7.0",Qualcomm Snapdragon 865,12 GB,256 GB
-https://cellphones.com.vn/oppo-a74.html,"
-                        OPPO A74                                            ",5.790.000 ₫,oppo,6.43 inches,Li-Po 5000 mAh,175 g,"Android 11, ColorOS 11.1","Qualcomm Snapdragon 662, tối đa 2.0GHz",8 GB,128 GB
-https://cellphones.com.vn/oppo-a15s.html,"
-                        OPPO A15s                                            ",3.790.000 ₫,oppo,6.52 inches,Li-Po 4230 mA,175 g,"Android 10, giao diện ColorOS 7.2","Mediatek MT6765 Helio P35, tiến trình 12nm, 8 nhân",4 GB,64 GB
-https://cellphones.com.vn/nokia-g21.html,"
-                        Nokia G21                                            ",3.490.000 ₫,nokia,6.5 inches,Li-Po 5050 mAh,190 g ,"Android 11, 2 năm nâng cấp hệ điều hành. 3 năm cập nhật bảo mật",Unisoc T606 (12 nm),4 GB,128 GB
-https://cellphones.com.vn/nokia-g50.html,"
-                        Nokia G50 (5G)                                            ",4.590.000 ₫,nokia,6.82 inches,5000 mAh, 220g ,Android 11 (64bit)| 2 năm cập nhật bảo mật hàng tháng,Snapdragon 480 8 nhân 5G,6 GB,128 GB
-https://cellphones.com.vn/nokia-c21-plus.html,"
-                        Nokia C21 Plus 3GB 64GB                                            ",2.890.000 ₫,nokia,6.52 inches,5050 mAh,178 g,Android 11 (Go edition),Unisoc SC9863A,3 GB,64 GB
-https://cellphones.com.vn/nokia-c20-16gb.html,"
-                        Nokia C20 2GB 16GB                                            ",1.790.000 ₫,nokia,6.52 inches,Li-Ion 2950mAh,191 g,,Unisoc SC9863A,2 GB,16 GB
-https://cellphones.com.vn/nokia-c30-2gb.html,"
-                        Nokia C30 2GB 32GB                                            ",2.390.000 ₫,nokia,6.82 inches,6000 mAh, 237g,Android 11 (phiên bản Go) | 2 năm cập nhật bảo mật hàng quý,SC9863A 8 nhân 1.6GHz,2 GB,32 GB
-https://cellphones.com.vn/nokia-c20.html,"
-                        Nokia C20                                            ",2.090.000 ₫,nokia,6.52 inches,Li-Ion 2950mAh,191 g,,Unisoc SC9863A,2 GB,32 GB
-https://cellphones.com.vn/nokia-g10.html,"
-                        Nokia G10                                            ",2.990.000 ₫,nokia,6.5 inches,5050 mAh,194g,2 năm nâng cấp hệ điều hành,Mediatek G25 8x A53 2.0GHz,4 GB,64 GB
-https://cellphones.com.vn/nokia-c30.html,"
-                        Nokia C30                                            ",2.490.000 ₫,nokia,6.82 inches,6000 mAh, 237g,Android 11 (phiên bản Go) | 2 năm cập nhật bảo mật hàng quý,SC9863A 8 nhân 1.6GHz,3 GB,32 GB
-https://cellphones.com.vn/nokia-c21-plus-32gb.html,"
-                        Nokia C21 Plus 3GB 32GB                                            ",2.690.000 ₫,nokia,6.52 inches,5050 mAh,178 g,Android 11 (Go edition),Unisoc SC9863A,3 GB,32 GB
-https://cellphones.com.vn/nokia-34.html,"
-                        Nokia 3.4                                            ",3.690.000 ₫,nokia,6.39 inches,"Li-Po 4000 mAh, sạc nhanh 10W",180 g,"Android 10, Android One",Qualcomm SM4250 Snapdragon 460 (11 nm),4 GB,64 GB
-https://cellphones.com.vn/nokia-24.html,"
-                        Nokia 2.4                                            ",2.690.000 ₫,nokia,6.5 inches,4500 mAh,195 g,Android v10 (Q),MediaTek Helio P22,2 GB,32 GB
-https://cellphones.com.vn/nokia-54.html,"
-                        Nokia 5.4                                            ",3.990.000 ₫,nokia,6.39 inches,Li-Po 4000 mAh,181 g,Android 10,Qualcomm SM6115 Snapdragon 662 (11 nm),4 GB,128 GB
-https://cellphones.com.vn/nokia-c21-plus-2gb.html,"
-                        Nokia C21 Plus 2GB 64GB                                            ",2.690.000 ₫,nokia,6.52 inches,5050 mAh,178 g,Android 11 (Go edition),Unisoc SC9863A,2 GB,64 GB
-https://cellphones.com.vn/nokia-x10.html,"
-                        Nokia X10 5G                                            ",5.190.000 ₫,nokia,6.67 inches,Li-Po 4470 mAh,210 g,Android 11,Snapdragon 480 5G (8 nhân),6 GB,128 GB
-https://cellphones.com.vn/realme-9-pro.html,"
-                        Realme 9 Pro                                            ",7.190.000 ₫,realme,6.6 inches,5000mAh,195 g,"Android 12, UI 3.0",Qualcomm Snapdragon 695 5G,8 GB,128 GB
-https://cellphones.com.vn/realme-c11-2021.html,"
-                        Realme C11 (2021)                                            ",2.490.000 ₫,realme,6.5 inches,5000mAh,196 g,Android Go,Unisoc SC9863A ,2 GB,32 GB
-https://cellphones.com.vn/realme-8.html,"
-                        Realme 8                                            ",6.390.000 ₫,realme,6.4 inches,Li-Po 5000 mAh,177 g,"Android 11, Realme UI 2.0",Mediatek Helio G95 (12 nm),8 GB,128 GB
-https://cellphones.com.vn/realme-c35.html,"
-                        Realme C35 4GB 64GB                                            ",3.990.000 ₫,realme,6.6 inches,5000mAh,189 g,Android 11,Unisoc T616 8 nhân,4 GB,64 GB
-https://cellphones.com.vn/realme-9i.html,"
-                        Realme 9i                                            ",5.790.000 ₫,realme,6.6 inches,,,"Android 12, Realme UI 3.0",Qualcomm SM6225 Snapdragon 680 4G (6 nm),6 GB,128 GB
-https://cellphones.com.vn/realme-9-pro-plus.html,"
-                        Realme 9 Pro Plus                                            ",8.990.000 ₫,realme,6.4 inches,4500mAh,182g,"UI 3.0, Android 12",MediaTek Dimensity 920 5G ,8 GB,128 GB
-https://cellphones.com.vn/realme-7.html,"
-                        Realme 7                                            ",5.590.000 ₫,realme,6.5 inches,"5000 mAh, sạc nhanh 30W",195 g,realme UI 1.0 - Android 10,MediaTek Helio G95 Cortex-A76,8 GB,128 GB
-https://cellphones.com.vn/realme-c15.html,"
-                        Realme C15                                            ",3.490.000 ₫,realme,6.5 inches,"Li-Po 6000 mAh battery, Fast charging 18W",209 g,"Android 10, realme UI 1.0",Qualcomm SM4250 Snapdragon 460 (11 nm),4 GB,64 GB
-https://cellphones.com.vn/realme-6.html,"
-                        Realme 6                                            ",5.190.000 ₫,realme,6.5 inches,"4300 mAh, Sạc nhanh VOOC 4.0(30W)",191 g,Android v10 (Q),Mediatek Helio G90T,4 GB,128 GB
-https://cellphones.com.vn/realme-8-5g.html,"
-                        Realme 8 5G                                            ",6.790.000 ₫,realme,6.5 inches,Li-Po 5000 mAh,185 g,"Android 11, Realme UI 2.0",MediaTek Dimensity 700 5G 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/realme-c21y.html,"
-                        Realme C21Y                                            ",3.290.000 ₫,realme,6.5 inches,5000 mAh,,Android 11,Spreadtrum T610 8 nhân,3 GB,32 GB
-https://cellphones.com.vn/realme-c25.html,"
-                        Realme C25                                            ",4.690.000 ₫,realme,6.5 inches,6000mAh,209g bao gồm pin,Android 11,MediaTek G70,4 GB,128 GB
-https://cellphones.com.vn/realme-8-pro.html,"
-                        Realme 8 Pro                                            ",7.590.000 ₫,realme,6.4 inches,Li-Po 4500 mAh,176 g,"Android 11, Realme UI 2.0",Snapdragon 720G (8 nm),8 GB,128 GB
-https://cellphones.com.vn/realme-7-pro.html,"
-                        Realme 7 Pro                                            ",6.590.000 ₫,realme,6.44 inches,"4500 mAh, SuperDart Hỗ trợ sạc 65W",182g bao gồm pin,realme UI 1.0 - Android 10,Qualcomm® Snapdragon™ 720G ,8 GB,128 GB
-https://cellphones.com.vn/realme-c17.html,"
-                        Realme C17                                            ",4.390.000 ₫,realme,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",188 g,Android 10,Qualcomm SM4250 Snapdragon 460 (11 nm),6 GB,128 GB
-https://cellphones.com.vn/realme-c25y.html,"
-                        Realme C25Y                                            ",3.990.000 ₫,realme,6.5 inches,5000 mAh,200 g,"Android 11, Realme UI R",Spreadtrum T610 8 nhân,4 GB,128 GB
-https://cellphones.com.vn/realme-7i.html,"
-                        Realme 7i                                            ",4.990.000 ₫,realme,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",188 ,"Android 10, Realme UI",Qualcomm SM6115 Snapdragon 662 (11 nm),8 GB,128 GB
-https://cellphones.com.vn/realme-c12.html,"
-                        Realme C12                                            ",3.490.000 ₫,realme,6.52 inches,"Li-po 6000 mAh, sạc nhanh 10W",Khoảng 209g bao gồm Pin,Realme UI,MediaTek Helio G35 ,3 GB,32 GB
-https://cellphones.com.vn/realme-c11-2021-4gb-64gb.html,"
-                        Realme C11 2021 4GB 64GB                                             ",3.190.000 ₫,realme,6.5 inches,5000mAh,196 g,Android Go,Unisoc SC9863A ,4 GB,64 GB
-https://cellphones.com.vn/realme-c21y-4gb-64gb.html,"
-                        Realme C21Y 4GB 64GB                                             ",3.790.000 ₫,realme,6.5 inches,5000 mAh,194 g,Android 11,Spreadtrum T610 8 nhân,4 GB,64 GB
-https://cellphones.com.vn/vsmart-aris-8gb.html,"
-                        Vsmart Aris 8GB 128GB                                            ",3.990.000 ₫,vsmart,6.39 inches,"4,000mAh, sạc nhanh Quick Charge 3.0 18W",Đang cập nhật,"Android 10, VOS 3.0",Snapdragon 730 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/vsmart-aris-pro.html,"
-                        Vsmart Aris Pro                                            ",4.790.000 ₫,vsmart,,"4,000mAh, hỗ trợ sạc nhanh Quick Charge 3.0 18W",Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM730 Snapdragon 730 (8 nm),8 GB,128 GB
-https://cellphones.com.vn/vsmart-joy-4.html,"
-                        Vsmart Joy 4                                            ",3.290.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,203g,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),3 GB,64 GB
-https://cellphones.com.vn/vsmart-live-4.html,"
-                        Vsmart Live 4                                            ",4.290.000 ₫,vsmart,6.5 inches,"Li-Po 5000 mAh mAh battery, sạc nhanh 18W",217g,"Android 10, VOS 3.0",Snapdragon 675 8 nhân,6 GB,64 GB
-https://cellphones.com.vn/vsmart-active-3.html,"
-                        Vsmart Active 3 6GB Ram                                            ",2.990.000 ₫,vsmart,6.39 inches,4020mAh,,VOS 2.5,Mediatek Helio P60 ,,64 GB
-https://cellphones.com.vn/vsmart-star-5.html,"
-                        Vsmart Star 5                                            ",2.690.000 ₫,vsmart,6.53 inches,Li-Po 5000 mAh,196.26 g,"VOS 4.0, nền tảng Android 11","MediaTek Helio G35, tối đa 2.5 GHz",3 GB,32 GB
-https://cellphones.com.vn/vsmart-joy-4-4gb.html,"
-                        Vsmart Joy 4 4GB                                            ",3.590.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),4 GB,64 GB
-https://cellphones.com.vn/vsmart-joy-3-4gb.html,"
-                        Vsmart Joy 3 4GB                                            ",2.490.000 ₫,vsmart,6.5 inches,Li-on 5000 mAh,192 g,Android 10,Qualcomm Snapdragon 632,4 GB,64 GB
-https://cellphones.com.vn/vsmart-star-5-4gb-64gb.html,"
-                        Vsmart Star 5 4GB 64GB                                            ",3.290.000 ₫,vsmart,6.52 inches,5000 mAh,196.26 g,VOS 4.0 (Android 11),MediaTek Helio G35 8 nhân ,4 GB,64 GB
-https://cellphones.com.vn/vsmart-active-3-4gb.html,"
-                        Vsmart Active 3 4GB Ram                                            ",2.690.000 ₫,vsmart,6.39 inches,4020mAh,,VOS 2.5,Mediatek Helio P60 ,,64 GB
-https://cellphones.com.vn/vsmart-joy-4-6gb.html,"
-                        Vsmart Joy 4 6GB                                            ",3.990.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),6 GB,64 GB
-https://cellphones.com.vn/vsmart-star-4-2gb.html,"
-                        Vsmart Star 4 2GB                                            ",2.050.000 ₫,vsmart,6.09 inches,3500 mAh,165 g,"Android 10.0, VOS 3.0",MediaTek Helio P35,2 GB,16 GB
-https://cellphones.com.vn/asus-rog-phone-5s-512gb.html,"
-                        ASUS ROG Phone 5S 16GB 512GB                                            ",20.490.000 ₫,asus,6.78 inches,6000 mAh,238 g,"Android 11, ROG UI",Snapdragon 888 Plus 8 nhân,16 GB,512 GB
-https://cellphones.com.vn/asus-rog-phone-5.html,"
-                        ASUS ROG Phone 5 chính hãng                                            ",18.990.000 ₫,asus,6.78 inches,6000 mAh,238 g,"Android 11, ROG UI",Snapdragon 888 (5 nm),16 GB,256 GB
-https://cellphones.com.vn/asus-rog-phone-5s.html,"
-                        ASUS ROG Phone 5S 16GB 256GB                                            ",18.990.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,16 GB,256 GB
-https://cellphones.com.vn/asus-rog-phone-5s-12gb.html,"
-                        ASUS ROG Phone 5S 12GB 256GB                                            ",17.990.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,12 GB,256 GB
-https://cellphones.com.vn/asus-rog-phone-5s-8gb-128gb.html,"
-                        ASUS ROG Phone 5S 8GB 128GB                                             ",15.790.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,8 GB,128 GB
-https://cellphones.com.vn/asus-rog-phone-3.html,"
-                        ASUS ROG Phone 3 Chính hãng                                            ",16.990.000 ₫,asus,6.59 inches,"- Pin Li-Po 6,000 mAh  - Sạc nhanh 30W, hỗ trợ chuẩn PD 3.0, Quick Charge 4.0, 3.0  - Sạc ngược không dây 10W",240 g (8.47 oz),"Android 10, ROG UI",Qualcomm Snapdragon 865+ (7nm+),12 GB,512 GB
-https://cellphones.com.vn/asus-rog-phone-2.html,"
-                        ASUS ROG Phone 2 512GB                                            ",20.490.000 ₫,asus,6.59 inches,"6000mAh, hỗ trợ Quick Charge 4.0 và PD Charging",240 g,Android 9.0 (Pie),Snapdragon 855 Plus Mobile Platform ,12 GB,512 GB
-https://cellphones.com.vn/vivo-v23-5g.html,"
-                        Vivo V23 5G                                            ",10.990.000 ₫,vivo,6.44 inches,4200mAh,179g - 181g,"Funtouch OS 12, Android 12)",MediaTek Dimensity 920,8 GB,128 GB
-https://cellphones.com.vn/vivo-y15s.html,"
-                        Vivo Y15s                                            ",2.750.000 ₫,vivo,6.51 inches,5000mAh,179 g,Android 11,MediaTek Helio P35 8 nhân,3 GB,32 GB
-https://cellphones.com.vn/vivo-y21.html,"
-                        Vivo Y21                                            ",3.500.000 ₫,vivo,6.51 inches,5000mAh,182 g,Android 11,Helio P35 (MTK6765),4 GB,64 GB
-https://cellphones.com.vn/vivo-v23e.html,"
-                        Vivo V23e                                            ",6.790.000 ₫,vivo,6.44 inches,4050mAh,172g,Android 11,MediaTek Helio G96,8 GB,128 GB
-https://cellphones.com.vn/vivo-x70-pro.html,"
-                        Vivo X70 Pro 5G                                            ",16.990.000 ₫,vivo,6.56 inches,4450 mAh,185 g,"Android 11,  Funtouch OS 12 (phiên bản quốc tế)",Dimensity 1200,12 GB,256 GB
-https://cellphones.com.vn/vivo-y33s.html,"
-                        Vivo Y33S                                            ",5.900.000 ₫,vivo,6.58 inches,Li-Po 5000 mAh,182 g,"Android 11, Funtouch 11.1",MediaTek Helio G80,8 GB,128 GB
-https://cellphones.com.vn/vivo-y21s.html,"
-                        Vivo Y21S (4GB - 128GB)                                            ",4.300.000 ₫,vivo,6.51 inches,5000 mAh,182 g, Android 11,MediaTek Helio G80 8 nhân,4 GB,128 GB
-https://cellphones.com.vn/vivo-v20.html,"
-                        Vivo V20                                            ",6.500.000 ₫,vivo,6.44 inches,"Li-Po 4000 mAh, sạc nhanh 33W",171 g,"Android 11, Funtouch 10.5",Qualcomm SM7125 Snapdragon 720G (8 nm),8 GB,128 GB
-https://cellphones.com.vn/vivo-x60-pro.html,"
-                        Vivo X60 Pro 5G                                            ",13.290.000 ₫,vivo,6.56 inches,4200 mAh,178 g,Android 11,Snapdragon 870 5G (7 nm),12 GB + 3 GB (RAM bổ sung),256 GB
-https://cellphones.com.vn/vivo-y53s.html,"
-                        Vivo Y53S                                            ",4.990.000 ₫,vivo,6.58 inches,5000 mAh,190g,"Android 11, Funtouch OS 11.1 ",Helio G80,8 GB,128 GB
-https://cellphones.com.vn/vivo-v21.html,"
-                        Vivo V21 5G                                            ",8.500.000 ₫,vivo,6.44 inches,Li-Po 4000 mAh,176 g,"Android 11, Funtouch 11.1",Dimensity 800U 5G (7 nm),8 GB,128 GB
-https://cellphones.com.vn/vivo-y12s.html,"
-                        Vivo Y12s (2021)                                            ",3.100.000 ₫,vivo,6.5 inches,Li-Po 5000 mAh,191 g,"Android 10, Funtouch 11",Qualcomm Snapdragon 439,3 GB,32 GB
-https://cellphones.com.vn/vivo-v19.html,"
-                        Vivo V19                                            ",5.190.000 ₫,vivo,6.44 inches,"Li-Po 4500 mAh battery, Fast charging 33W",186.5 g,"Android 10, Funtouch 10.0",Qualcomm SDM712 Snapdragon 712 (10 nm),8 GB,128 GB
-https://cellphones.com.vn/vivo-y72.html,"
-                        Vivo Y72 5G                                            ",5.790.000 ₫,vivo,6.58 inches,Li-Po 5000 mAh,193 g,"Android 11, Funtouch 11.1",MediaTek Dimensity 700 8 nhân,8 GB,128 GB
-https://cellphones.com.vn/vivo-y30.html,"
-                        Vivo Y30                                            ",2.990.000 ₫,vivo,6.47 inches, Li-Po 5000 mAh battery,197 g,"Android 10, Funtouch 10.0",Mediatek MT6765 Helio P35 (12nm),4 GB,128 GB
-https://cellphones.com.vn/vivo-y20s.html,"
-                        Vivo Y20S                                            ",3.190.000 ₫,vivo,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",192.3 g,"Android 10, Funtouch 10.0",Qualcomm SM4250 Snapdragon 460 (11 nm),6 GB,128 GB
-https://cellphones.com.vn/vivo-v20-se.html,"
-                        Vivo V20 SE                                            ",5.490.000 ₫,vivo,6.39 inches,"4500 mAh, sạc nhanh 18W",190 g,,Qualcomm Snapdragon 665 (11 nm),8 GB,128 GB
-https://cellphones.com.vn/vivo-y21s-6gb.html,"
-                        Vivo Y21S (6GB - 128GB)                                            ",4.650.000 ₫,vivo,6.51 inches,5000 mAh,182 g, Android 11,MediaTek Helio G80 8 nhân,6 GB,128 GB
-https://cellphones.com.vn/vivo-y20-2021.html,"
-                        Vivo Y20 (2021)                                            ",3.350.000 ₫,vivo,6.5 inches,Li-Po 5000 mAh,192.3 g,"Android 10, Funtouch 10.5",MediaTek Helio P35,4 GB,64 GB
+url,title,pathImg,price,producer,size,pin,weight,hdh,chip,ram,memory
+https://cellphones.com.vn/iphone-11.html,                        iPhone 11 64GB I Chính hãng VN/A                                             ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone_11_white_4_.png,11.690.000 ₫,apple,6.1 inches,3110 mAh,194 g,iOS 13 hoặc cao hơn (Tùy vào phiên bản phát hành),A13 Bionic,4 GB,64 GB
+https://cellphones.com.vn/iphone-12-pro-max.html,                        iPhone 12 Pro Max 128GB I Chính hãng VN/A                                             ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone_12_pro_max_white_1.png,26.590.000 ₫,apple,6.7 inches,"Li-Ion, sạc nhanh 20W, sạc không dây 15W, USB Power Delivery 2.0",228 ,iOS 14.1 hoặc cao hơn (Tùy vào phiên bản phát hành),Apple A14 Bionic (5 nm),6 GB,128 GB
+https://cellphones.com.vn/iphone-13-pro-max.html,                        iPhone 13 Pro Max 128GB | Chính hãng VN/A                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg,29.790.000 ₫,apple,6.7 inches,"4,325mAh",240g,iOS15,Apple A15,6 GB,128 GB
+https://cellphones.com.vn/samsung-galaxy-note-20-ultra-5g.html,                        Samsung Galaxy Note 20 Ultra 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/y/e/yellow_final_2.jpg,18.990.000 ₫,samsung,6.9 inches,Non-removable Li-Ion 4500 mAh battery Fast charging 25W USB Power Delivery 3.0 Fast Qi/PMA wireless charging Reverse wireless charging 9W,208 g,"Android 10, One UI 2.1",Exynos 990 (7 nm+),12 GB,256 GB
+https://cellphones.com.vn/samsung-galaxy-a72.html,                        Samsung Galaxy A72                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-a72-30.jpg,10.100.000 ₫,samsung,6.7 inches,Li-Ion 5000 mAh,203 g,"Android 11, One UI 3.0",Snapdragon 720G (8 nm),8 GB,256 GB
+https://cellphones.com.vn/samsung-galaxy-a52s.html,                        Samsung Galaxy A52s 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/0/4/04_2_4.png,7.850.000 ₫,samsung,6.5 inches,4500 mAh,189 g,"Android 11, One UI 3.1",Snapdragon 778G 5G 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/samsung-galaxy-s20-fe.html,                        Samsung Galaxy S20 FE 256GB (Fan Edition)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-20-fe_4_.jpg,10.990.000 ₫,samsung,6.5 inches,"Li-Po 4500 mAh, sạc nhanh 25W, sạc không dây cho các thiết bị ngoại vi 5.4W",190 g,"Android 10, One UI 2.5",Snapdragon 865,8 GB,256 GB
+https://cellphones.com.vn/samsung-galaxy-s21-fe.html,                        Samsung Galaxy S21 FE 5G (6GB - 128GB)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-g990_s21fe_backfront_lv_7.png,11.290.000 ₫,samsung,6.4 inches,4500mAh,,,Exynos 2100 (5nm),6 GB,128 GB
+https://cellphones.com.vn/samsung-galaxy-a52.html,                        Samsung Galaxy A52                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-a52-26.jpg,6.600.000 ₫,samsung,6.5 inches,Li-Po 4500 mAh,189 g,"Android 11, One UI 3.0",Snapdragon 720G (8 nm),8 GB,128 GB
+https://cellphones.com.vn/samsung-galaxy-note-20.html,                        Samsung Galaxy Note 20                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/m/i/mint_final.jpg,15.000.000 ₫,samsung,6.7 inches,Non-removable Li-Ion 4300 mAh battery Fast charging 25W USB Power Delivery 3.0 Fast Qi/PMA wireless charging Reverse wireless charging 9W,192 g,"Android 10, One UI 2.5",Exynos 990 (7 nm+),8 GB,256 GB
+https://cellphones.com.vn/samsung-galaxy-s20-ultra.html,                        Samsung Galaxy S20 Ultra                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/3/637170935875912528_ss-s20-ultra-den-1.png,16.000.000 ₫,samsung,6.9 inches,Li-Po 5000 mAh,222 g,Android 10.0; One UI 2,Exynos 990 (7 nm+),12 GB,128 GB
+https://cellphones.com.vn/xiaomi-redmi-note-11.html,                        Xiaomi Redmi Note 11                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800-1-640x640-5_2.png,4.190.000 ₫,xiaomi,6.43 inches,Li-Po 5000 mAh,179 g,"Android 11, MIUI 12.5",Snapdragon 680 8 nhân,4 GB,64 GB
+https://cellphones.com.vn/xiaomi-redmi-note-11-pro-plus.html,                        Xiaomi Redmi Note 11 Pro Plus 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/1/1/11-pro-plus-blue.jpg,8.690.000 ₫,xiaomi,6.67 inches,Li-Po 4500 mAh,204 g,"Android 11, MIUI 12.5",MediaTek Dimensity 920 5G (6 nm),8 GB,256 GB
+https://cellphones.com.vn/xiaomi-redmi-note-11-pro.html,                        Xiaomi Redmi Note 11 Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/_/t_i_xu_ng_2_18.png,6.450.000 ₫,xiaomi,6.67 inches,5000mAh (typ),202g,"Android 11, MIUI 12.5",MediaTek Helio G96,8 GB,128 GB
+https://cellphones.com.vn/oppo-reno7-z.html,                        OPPO Reno7 Z (5G)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/o/combo_product_-_rainbow_spectrum_-_reno7_z.png,9.390.000 ₫,oppo,6.43 inches,"4,500 mAh",173g,Android 11 - ColorOS 12,Snapdragon 695 5G 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/oppo-reno-6z.html,                        OPPO Reno6 Z 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/o/p/oppo_reno6.jpg,6.790.000 ₫,oppo,6.43 inches,4310mAh (Typ),173g,"ColorOS 11.3, nền tảng Android 11",MediaTek Dimensity 800U 5G 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/oppo-reno-7.html,                        OPPO Reno7 (5G)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/o/combo_product_-_blue_-_reno7_5g.png,11.490.000 ₫,oppo,6.4 inches,Li-Po 4500 mAh,160.6 x 73.2 x 7.81 mm,"Android 11, ColorOS 12",MediaTek Dimensity 900,8 GB,256 GB
+https://cellphones.com.vn/oppo-reno-6.html,                        OPPO Reno6 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/reno6-1_1.jpg,10.390.000 ₫,oppo,6.43 inches, Li-P0 4300 mAh,182 g ,"Android 11, ColorOS 11.3",MT6877 Dimensity 900 5G (6 nm),8 GB,128 GB
+https://cellphones.com.vn/oppo-a95.html,                        OPPO A95                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/o/combo_a95_-_en_-_cmyk.jpg,6.090.000 ₫,oppo,6.43 inches,5000mAh,175g,"ColorOS 11.1, Android 11",Qualcomm® Snapdragon™ 662,8 GB,128 GB
+https://cellphones.com.vn/oppo-reno-5-5g.html,                        OPPO Reno5 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/o/p/oppo-reno-5-5g_2_.jpg,8.990.000 ₫,oppo,6.43 inches,"4300mAh (Typ), Sạc siêu nhanh",Khoảng 172g (Bao gồm pin) - màu Đen Khoảng 180g (Bao gồm pin) - màu Bạc,"ColorOS 11.1, Nền tảng Android 11",Qualcomm SM7250 Snapdragon 765G (7 nm),8 GB,128 GB
+https://cellphones.com.vn/oppo-reno-5.html,                        OPPO Reno5                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/o/p/oppo-reno-5_3_.jpg,7.790.000 ₫,oppo,6.43 inches,"4310mAh (Typ), Sạc siêu nhanh",Khoảng 171g (Bao gồm pin),"ColorOS 11.1, Nền tảng Android 11","Qualcomm Snapdragon 720G, tối đa 2.3GHz",8 GB,128 GB
+https://cellphones.com.vn/oppo-a16k.html,                        OPPO A16K                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/o/combo_a16k_-_black.jpg,3.190.000 ₫,oppo,6.52 inches,4230 mA,175g,,"Helio G35 8 nhân, tối đa 2.3GHz",3 GB,32 GB
+https://cellphones.com.vn/nokia-x10.html,                        Nokia X10 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-x10.jpg,4.690.000 ₫,nokia,6.67 inches,Li-Po 4470 mAh,210 g,Android 11,Snapdragon 480 5G (8 nhân),6 GB,128 GB
+https://cellphones.com.vn/nokia-g10.html,                        Nokia G10                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/_/t_i_xu_ng_3.png,2.990.000 ₫,nokia,6.5 inches,5050 mAh,194g,2 năm nâng cấp hệ điều hành,Mediatek G25 8x A53 2.0GHz,4 GB,64 GB
+https://cellphones.com.vn/nokia-g50.html,                        Nokia G50 (5G)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-g50-4_1.jpeg,4.590.000 ₫,nokia,6.82 inches,5000 mAh, 220g ,Android 11 (64bit)| 2 năm cập nhật bảo mật hàng tháng,Snapdragon 480 8 nhân 5G,6 GB,128 GB
+https://cellphones.com.vn/nokia-c20-16gb.html,                        Nokia C20 2GB 16GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-c20-2_4.jpg,1.690.000 ₫,nokia,6.52 inches,Li-Ion 2950mAh,191 g,,Unisoc SC9863A,2 GB,16 GB
+https://cellphones.com.vn/nokia-105-dual-sim-2019.html,                        Nokia 105 2 SIM (2019)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/a/e/ae08c25c6e913812f2fd60aca318bd8a_1.jpg,470.000 ₫,nokia,1.77 inches,Pin chuẩn Li-Ion 800 mAh,73 g,,,,
+https://cellphones.com.vn/nokia-c20.html,                        Nokia C20                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-c20-2.jpg,2.090.000 ₫,nokia,6.52 inches,Li-Ion 2950mAh,191 g,,Unisoc SC9863A,2 GB,32 GB
+https://cellphones.com.vn/nokia-c21-plus.html,                        Nokia C21 Plus 3GB 64GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-c21-plus-600x600_2_1.jpg,2.890.000 ₫,nokia,6.52 inches,5050 mAh,178 g,Android 11 (Go edition),Unisoc SC9863A,3 GB,64 GB
+https://cellphones.com.vn/nokia-c21-plus-32gb.html,                        Nokia C21 Plus 3GB 32GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/n/o/nokia-c21-plus-600x600_2.jpg,2.690.000 ₫,nokia,6.52 inches,5050 mAh,178 g,Android 11 (Go edition),Unisoc SC9863A,3 GB,32 GB
+https://cellphones.com.vn/realme-c35.html,                        Realme C35 4GB 64GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/r/frame3935-640x640.png,3.990.000 ₫,realme,6.6 inches,5000mAh,189 g,Android 11,Unisoc T616 8 nhân,4 GB,64 GB
+https://cellphones.com.vn/realme-9-pro.html,                        Realme 9 Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/real_me_pro_002.jpg,7.190.000 ₫,realme,6.6 inches,5000mAh,195 g,"Android 12, UI 3.0",Qualcomm Snapdragon 695 5G,8 GB,128 GB
+https://cellphones.com.vn/realme-c11-2021.html,                        Realme C11 (2021)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/o/download_15_5.jpg,2.490.000 ₫,realme,6.5 inches,5000mAh,196 g,Android Go,Unisoc SC9863A ,2 GB,32 GB
+https://cellphones.com.vn/realme-8.html,                        Realme 8                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-8-1_2.png,6.390.000 ₫,realme,6.4 inches,Li-Po 5000 mAh,177 g,"Android 11, Realme UI 2.0",Mediatek Helio G95 (12 nm),8 GB,128 GB
+https://cellphones.com.vn/realme-9-pro-plus.html,                        Realme 9 Pro Plus                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/9/_/9_ro_plus.png,8.990.000 ₫,realme,6.4 inches,4500mAh,182g,"UI 3.0, Android 12",MediaTek Dimensity 920 5G ,8 GB,128 GB
+https://cellphones.com.vn/realme-9i.html,                        Realme 9i                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/_/t_i_xu_ng_2__3_6.png,5.790.000 ₫,realme,6.6 inches,,,"Android 12, Realme UI 3.0",Qualcomm SM6225 Snapdragon 680 4G (6 nm),6 GB,128 GB
+https://cellphones.com.vn/realme-c15.html,                        Realme C15                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/3/637400868092278961_realme-c15-xanh-1_2.png,3.490.000 ₫,realme,6.5 inches,"Li-Po 6000 mAh battery, Fast charging 18W",209 g,"Android 10, realme UI 1.0",Qualcomm SM4250 Snapdragon 460 (11 nm),4 GB,64 GB
+https://cellphones.com.vn/realme-7.html,                        Realme 7                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-7-1.jpg,5.590.000 ₫,realme,6.5 inches,"5000 mAh, sạc nhanh 30W",195 g,realme UI 1.0 - Android 10,MediaTek Helio G95 Cortex-A76,8 GB,128 GB
+https://cellphones.com.vn/realme-c25.html,                        Realme C25                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-c25-1.jpg,4.690.000 ₫,realme,6.5 inches,6000mAh,209g bao gồm pin,Android 11,MediaTek G70,4 GB,128 GB
+https://cellphones.com.vn/realme-6.html,                        Realme 6                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/3/637202043964930819_realme-6-trang-1.png,5.190.000 ₫,realme,6.5 inches,"4300 mAh, Sạc nhanh VOOC 4.0(30W)",191 g,Android v10 (Q),Mediatek Helio G90T,4 GB,128 GB
+https://cellphones.com.vn/realme-c17.html,                        Realme C17                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-c17_1_.jpg,4.390.000 ₫,realme,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",188 g,Android 10,Qualcomm SM4250 Snapdragon 460 (11 nm),6 GB,128 GB
+https://cellphones.com.vn/realme-7i.html,                        Realme 7i                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-7i-xanh-duong_1.jpg,4.990.000 ₫,realme,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",188 ,"Android 10, Realme UI",Qualcomm SM6115 Snapdragon 662 (11 nm),8 GB,128 GB
+https://cellphones.com.vn/realme-8-pro.html,                        Realme 8 Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-8-pro-2_2.png,7.590.000 ₫,realme,6.4 inches,Li-Po 4500 mAh,176 g,"Android 11, Realme UI 2.0",Snapdragon 720G (8 nm),8 GB,128 GB
+https://cellphones.com.vn/realme-c25y.html,                        Realme C25Y                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-c25y-2.jpg,3.990.000 ₫,realme,6.5 inches,5000 mAh,200 g,"Android 11, Realme UI R",Spreadtrum T610 8 nhân,4 GB,128 GB
+https://cellphones.com.vn/realme-7-pro.html,                        Realme 7 Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-7-pro-2.jpg,6.590.000 ₫,realme,6.44 inches,"4500 mAh, SuperDart Hỗ trợ sạc 65W",182g bao gồm pin,realme UI 1.0 - Android 10,Qualcomm® Snapdragon™ 720G ,8 GB,128 GB
+https://cellphones.com.vn/realme-c21y.html,                        Realme C21Y                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-c21y.jpg,3.290.000 ₫,realme,6.5 inches,5000 mAh,,Android 11,Spreadtrum T610 8 nhân,3 GB,32 GB
+https://cellphones.com.vn/realme-8-5g.html,                        Realme 8 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-8-5g-blue-1-600x600_1.jpg,6.790.000 ₫,realme,6.5 inches,Li-Po 5000 mAh,185 g,"Android 11, Realme UI 2.0",MediaTek Dimensity 700 5G 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/realme-c12.html,                        Realme C12                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme_c12_0001_realme_c12-removebg-preview.jpg,3.490.000 ₫,realme,6.52 inches,"Li-po 6000 mAh, sạc nhanh 10W",Khoảng 209g bao gồm Pin,Realme UI,MediaTek Helio G35 ,3 GB,32 GB
+https://cellphones.com.vn/realme-c35-128gb.html,                        Realme C35 4GB 128GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/r/frame3935-640x640_2.png,4.590.000 ₫,realme,6.6 inches,5000mAh,189 g,Android 11,Unisoc T616 8 nhân,4 GB,128 GB
+https://cellphones.com.vn/realme-c11-2021-4gb-64gb.html,                        Realme C11 2021 4GB 64GB                                             ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/e/realme-c11-2021-gray-600x600_2.jpg,3.190.000 ₫,realme,6.5 inches,5000mAh,196 g,Android Go,Unisoc SC9863A ,4 GB,64 GB
+https://cellphones.com.vn/vsmart-aris-8gb.html,                        Vsmart Aris 8GB 128GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/1/1/11_3_1_1.png,3.790.000 ₫,vsmart,6.39 inches,"4,000mAh, sạc nhanh Quick Charge 3.0 18W",Đang cập nhật,"Android 10, VOS 3.0",Snapdragon 730 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/vsmart-aris-pro.html,                        Vsmart Aris Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/1/1/11_1_8.png,4.490.000 ₫,vsmart,,"4,000mAh, hỗ trợ sạc nhanh Quick Charge 3.0 18W",Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM730 Snapdragon 730 (8 nm),8 GB,128 GB
+https://cellphones.com.vn/vsmart-joy-4.html,                        Vsmart Joy 4                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-joy-4_2_.png,3.290.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,203g,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),3 GB,64 GB
+https://cellphones.com.vn/vsmart-live-4.html,                        Vsmart Live 4                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-live-_4_1_.jpg,4.290.000 ₫,vsmart,6.5 inches,"Li-Po 5000 mAh mAh battery, sạc nhanh 18W",217g,"Android 10, VOS 3.0",Snapdragon 675 8 nhân,6 GB,64 GB
+https://cellphones.com.vn/vsmart-active-3.html,                        Vsmart Active 3 6GB Ram                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-active-3_2_.png,2.990.000 ₫,vsmart,6.39 inches,4020mAh,,VOS 2.5,Mediatek Helio P60 ,,64 GB
+https://cellphones.com.vn/vsmart-star-5.html,                        Vsmart Star 5                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-star-5-1_3.jpg,2.690.000 ₫,vsmart,6.53 inches,Li-Po 5000 mAh,196.26 g,"VOS 4.0, nền tảng Android 11","MediaTek Helio G35, tối đa 2.5 GHz",3 GB,32 GB
+https://cellphones.com.vn/vsmart-joy-4-4gb.html,                        Vsmart Joy 4 4GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-joy-4_1__2.png,3.590.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),4 GB,64 GB
+https://cellphones.com.vn/vsmart-joy-3-4gb.html,                        Vsmart Joy 3 4GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/j/o/joy-3-4g-tim.jpg,2.490.000 ₫,vsmart,6.5 inches,Li-on 5000 mAh,192 g,Android 10,Qualcomm Snapdragon 632,4 GB,64 GB
+https://cellphones.com.vn/vsmart-active-3-4gb.html,                        Vsmart Active 3 4GB Ram                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-active-3_3__2.png,2.690.000 ₫,vsmart,6.39 inches,4020mAh,,VOS 2.5,Mediatek Helio P60 ,,64 GB
+https://cellphones.com.vn/vsmart-star-5-4gb-64gb.html,                        Vsmart Star 5 4GB 64GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-star-5-1_3_1.jpg,3.290.000 ₫,vsmart,6.52 inches,5000 mAh,196.26 g,VOS 4.0 (Android 11),MediaTek Helio G35 8 nhân ,4 GB,64 GB
+https://cellphones.com.vn/vsmart-joy-4-6gb.html,                        Vsmart Joy 4 6GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/s/vsmart-joy-4_1__2_2_4.png,3.990.000 ₫,vsmart,6.5 inches,Li-Po 5000 mAh batterySạc nhanh 18W,Đang cập nhật,"Android 10, VOS 3.0",Qualcomm SDM665 Snapdragon 665 (11 nm),6 GB,64 GB
+https://cellphones.com.vn/asus-rog-phone-5.html,                        ASUS ROG Phone 5 chính hãng                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/a/s/asus-rog-phone-5_0002_gsmarena_001.jpg,18.990.000 ₫,asus,6.78 inches,6000 mAh,238 g,"Android 11, ROG UI",Snapdragon 888 (5 nm),16 GB,256 GB
+https://cellphones.com.vn/asus-rog-phone-5s-512gb.html,                        ASUS ROG Phone 5S 16GB 512GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/h/7/h732_1.png,20.490.000 ₫,asus,6.78 inches,6000 mAh,238 g,"Android 11, ROG UI",Snapdragon 888 Plus 8 nhân,16 GB,512 GB
+https://cellphones.com.vn/asus-rog-phone-5s.html,                        ASUS ROG Phone 5S 16GB 256GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/a/s/asus-rog-phone-5_0002_gsmarena_001_3_1.jpg,18.690.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,16 GB,256 GB
+https://cellphones.com.vn/asus-rog-phone-5s-12gb.html,                        ASUS ROG Phone 5S 12GB 256GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/a/s/asus-rog-phone-5_0002_gsmarena_001_3_1_3.jpg,17.690.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,12 GB,256 GB
+https://cellphones.com.vn/asus-rog-phone-3.html,                        ASUS ROG Phone 3 Chính hãng                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/r/o/rog_3.jpg,16.990.000 ₫,asus,6.59 inches,"- Pin Li-Po 6,000 mAh  - Sạc nhanh 30W, hỗ trợ chuẩn PD 3.0, Quick Charge 4.0, 3.0  - Sạc ngược không dây 10W",240 g (8.47 oz),"Android 10, ROG UI",Qualcomm Snapdragon 865+ (7nm+),12 GB,512 GB
+https://cellphones.com.vn/asus-rog-phone-5s-8gb-128gb.html,                        ASUS ROG Phone 5S 8GB 128GB                                             ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/a/s/asus-rog-phone-5_0002_gsmarena_001_3_1_4.jpg,15.490.000 ₫,asus,6.78 inches,6000 mAh,238g,Android 11,Qualcomm® Snapdragon® 888+ 5G Mobile Platform,8 GB,128 GB
+https://cellphones.com.vn/asus-rog-phone-2.html,                        ASUS ROG Phone 2 512GB                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/_/6/_600x600__crop_600_asus_rog_phone2_min_1.jpg,20.490.000 ₫,asus,6.59 inches,"6000mAh, hỗ trợ Quick Charge 4.0 và PD Charging",240 g,Android 9.0 (Pie),Snapdragon 855 Plus Mobile Platform ,12 GB,512 GB
+https://cellphones.com.vn/vivo-x80.html,                        Vivo X80                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/5/3/53_2_11.jpg,19.990.000 ₫,vivo,6.75 inches,Li-Po 4500 mAh,206 g,"Funtouch OS 12, Android 12",MediaTek Dimensity 9000,12 GB,256 GB
+https://cellphones.com.vn/vivo-x80-pro.html,                        Vivo X80 Pro                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/g/a/gallery-pc-img1_2.jpg,29.990.000 ₫,vivo,6.78 inches,"Li-Po 4700 mAh, không thể tháo rời pin",219g,Android 12,Snapdragon 8 Gen 1,12 GB,256 GB
+https://cellphones.com.vn/vivo-x70-pro.html,                        Vivo X70 Pro 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/3/637677310894938336_vivo-x70-pro-den-1_1.jpg,16.990.000 ₫,vivo,6.56 inches,4450 mAh,185 g,"Android 11,  Funtouch OS 12 (phiên bản quốc tế)",Dimensity 1200,12 GB,256 GB
+https://cellphones.com.vn/vivo-v23-5g.html,                        Vivo V23 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo_v23_03.jpg,10.990.000 ₫,vivo,6.44 inches,4200mAh,179g - 181g,"Funtouch OS 12, Android 12)",MediaTek Dimensity 920,8 GB,128 GB
+https://cellphones.com.vn/vivo-v23e.html,                        Vivo V23e                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/c/9/c91ba5bf721d5b2d4eae4f821b8e4ced.png,6.790.000 ₫,vivo,6.44 inches,4050mAh,172g,Android 11,MediaTek Helio G96,8 GB,128 GB
+https://cellphones.com.vn/vivo-y15s.html,                        Vivo Y15s                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y15s-2021-261021-114837-600x600.jpg,2.750.000 ₫,vivo,6.51 inches,5000mAh,179 g,Android 11,MediaTek Helio P35 8 nhân,3 GB,32 GB
+https://cellphones.com.vn/vivo-x60-pro.html,                        Vivo X60 Pro 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-x60-pro-8.jpg,13.290.000 ₫,vivo,6.56 inches,4200 mAh,178 g,Android 11,Snapdragon 870 5G (7 nm),12 GB + 3 GB (RAM bổ sung),256 GB
+https://cellphones.com.vn/vivo-y33s.html,                        Vivo Y33S                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y33s-100.jpg,5.900.000 ₫,vivo,6.58 inches,Li-Po 5000 mAh,182 g,"Android 11, Funtouch 11.1",MediaTek Helio G80,8 GB,128 GB
+https://cellphones.com.vn/vivo-y21.html,                        Vivo Y21                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y21-white-01-1-600x600.jpg,3.500.000 ₫,vivo,6.51 inches,5000mAh,182 g,Android 11,Helio P35 (MTK6765),4 GB,64 GB
+https://cellphones.com.vn/vivo-y12s.html,                        Vivo Y12s (2021)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y12s.jpg,3.100.000 ₫,vivo,6.5 inches,Li-Po 5000 mAh,191 g,"Android 10, Funtouch 11",Qualcomm Snapdragon 439,3 GB,32 GB
+https://cellphones.com.vn/vivo-v20.html,                        Vivo V20                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-v20_2_.jpg,6.500.000 ₫,vivo,6.44 inches,"Li-Po 4000 mAh, sạc nhanh 33W",171 g,"Android 11, Funtouch 10.5",Qualcomm SM7125 Snapdragon 720G (8 nm),8 GB,128 GB
+https://cellphones.com.vn/vivo-y72.html,                        Vivo Y72 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y72-5g-2.jpg,5.790.000 ₫,vivo,6.58 inches,Li-Po 5000 mAh,193 g,"Android 11, Funtouch 11.1",MediaTek Dimensity 700 8 nhân,8 GB,128 GB
+https://cellphones.com.vn/vivo-v21.html,                        Vivo V21 5G                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-v21-5g-2.jpg,8.500.000 ₫,vivo,6.44 inches,Li-Po 4000 mAh,176 g,"Android 11, Funtouch 11.1",Dimensity 800U 5G (7 nm),8 GB,128 GB
+https://cellphones.com.vn/vivo-y30.html,                        Vivo Y30                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y30-_3.png,2.990.000 ₫,vivo,6.47 inches, Li-Po 5000 mAh battery,197 g,"Android 10, Funtouch 10.0",Mediatek MT6765 Helio P35 (12nm),4 GB,128 GB
+https://cellphones.com.vn/vivo-y20s.html,                        Vivo Y20S                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y20s.jpg,3.190.000 ₫,vivo,6.5 inches,"Li-Po 5000 mAh, sạc nhanh 18W",192.3 g,"Android 10, Funtouch 10.0",Qualcomm SM4250 Snapdragon 460 (11 nm),6 GB,128 GB
+https://cellphones.com.vn/vivo-v19.html,                        Vivo V19                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-v19-_4.png,5.190.000 ₫,vivo,6.44 inches,"Li-Po 4500 mAh battery, Fast charging 33W",186.5 g,"Android 10, Funtouch 10.0",Qualcomm SDM712 Snapdragon 712 (10 nm),8 GB,128 GB
+https://cellphones.com.vn/vivo-y21s.html,                        Vivo Y21S (4GB - 128GB)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y21s-600x600.jpg,4.300.000 ₫,vivo,6.51 inches,5000 mAh,182 g, Android 11,MediaTek Helio G80 8 nhân,4 GB,128 GB
+https://cellphones.com.vn/vivo-y53s.html,                        Vivo Y53S                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo_y53s_blue_bg.png,4.990.000 ₫,vivo,6.58 inches,5000 mAh,190g,"Android 11, Funtouch OS 11.1 ",Helio G80,8 GB,128 GB
+https://cellphones.com.vn/vivo-y21s-6gb.html,                        Vivo Y21S (6GB - 128GB)                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/i/vivo-y21s-600x600_1.jpg,4.650.000 ₫,vivo,6.51 inches,5000 mAh,182 g, Android 11,MediaTek Helio G80 8 nhân,6 GB,128 GB
+https://cellphones.com.vn/vivo-v20-se.html,                        Vivo V20 SE                                            ,https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/3/637399143538220514_vivo-v20-se-den-1.png,5.490.000 ₫,vivo,6.39 inches,"4500 mAh, sạc nhanh 18W",190 g,,Qualcomm Snapdragon 665 (11 nm),8 GB,128 GB
