@@ -2,9 +2,10 @@ from logging import exception
 import requests
 from bs4 import BeautifulSoup
 import csv
+import re
 
-root = './'
-def crawData():
+
+def crawlData():
     url = "https://www.nguyenkim.com/dien-thoai-di-dong/page-{}/"
     listUrl = []
     for i in range(1, 8):
@@ -21,11 +22,12 @@ def crawData():
         soup = BeautifulSoup(response.content, "html.parser")
         title = soup.find('h1', class_='product_info_name').text
         price = soup.find('span', class_='nk-price-final').text
+        pathImg = soup.find('ul', class_='nk-product-bigImg').findAll('li')[0].find('img').attrs['src']
 
-        body = soup.find('table', class_='productSpecification_table')
+        body = soup.find('article', class_='popup_content').find('table', class_='productSpecification_table')
         table = body.findChildren('tr')
 
-        model = producer = origin = year = hdh = chip = ram = ''
+        model = producer = origin = year = hdh = chip = ram = memory = size = ''
         for row in table:
             label = row.find('td', class_='title').text
             value = row.find('td', class_='value').text
@@ -43,14 +45,18 @@ def crawData():
                 chip = value
             elif label == 'RAM:':
                 ram = value
+            elif label == 'Bộ nhớ trong:':
+                memory = value
+            elif label == 'Kích thước sản phẩm:':
+                size = value
 
-        data.append([url, title, price, model, producer, origin, year, hdh, chip, ram])
-        print(count)
+        data.append([url, title, pathImg, price, model, producer, origin, year, hdh, chip, ram, memory, size])
+        print(count, memory)
         count += 1
 
-    with open(root+'Data/NguyenKim.csv', mode='a', encoding='utf-8', newline='') as file:
+    with open('/Users/lap60570/Documents/HUST/20212/Tích hợp dữ liệu/BTL/CrawlData/NguyenKim.csv', mode='a', encoding='utf-8', newline='') as file:
         writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(['url', 'title', 'price', 'model', 'producer', 'origin', 'year', 'hdh', 'chip', 'ram'])
+        writer.writerow(['url', 'title', 'pathImg', 'price', 'model', 'producer', 'origin', 'year', 'hdh', 'chip', 'ram', 'memory', 'size'])
         for row in data:
             writer.writerow(row)
 
@@ -71,7 +77,10 @@ def crawlData2():
             print(count)
             try:
                 title = soup.find('div', class_='box-name__box-product-name').find('h1').text
+                title = re.sub('\n', '', re.sub('\r', '', title))
+
                 price = soup.find('div', class_='box-info__box-price').find('p', class_='special-price').text
+                pathImg = soup.find('div', class_='box-ksp').find('img', class_='swiper-lazy').attrs['data-src']
             except:
                 print(url)
                 break
@@ -99,11 +108,11 @@ def crawlData2():
                 elif label == 'Bộ nhớ trong':
                     memory = value
 
-            data.append([url, title, price, producer, size, pin, weight, hdh, chip, ram, memory])
+            data.append([url, title, pathImg, price, producer, size, pin, weight, hdh, chip, ram, memory])
 
-    with open(root+'Data/CellPhones.csv', mode='a', encoding='utf-8', newline='') as file:
+    with open('/Users/lap60570/Documents/HUST/20212/Tích hợp dữ liệu/BTL/CrawlData/CellPhones.csv', mode='a', encoding='utf-8', newline='') as file:
             writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(['url', 'title', 'price', 'producer', 'size', 'pin', 'weight', 'hdh', 'chip', 'ram', 'memory'])
+            writer.writerow(['url', 'title', 'pathImg', 'price', 'producer', 'size', 'pin', 'weight', 'hdh', 'chip', 'ram', 'memory'])
             for row in data:
                 writer.writerow(row)
 
@@ -129,6 +138,7 @@ def crawlData3():
             soup = BeautifulSoup(response.content, "html.parser")
             title = soup.find('h1', class_='pull-left').text
             price = soup.find('div', class_='details_top').find('span', class_='_price').text
+            pathImg = soup.find('ul', id='imageGallery').findAll('li', class_='color_rm')[0].attrs['data-thumb']
 
             body = soup.find('table', class_='charactestic_table')
             try:
@@ -153,13 +163,21 @@ def crawlData3():
                 elif label.find('Bộ nhớ trong') != -1:
                     memory = value
 
-            data.append([url, title, price, producer, size, pin, chip, ram, memory])
+            list = [url, title, pathImg, price, producer, size, pin, chip, ram, memory]
+            for i in range(len(list)):
+                list[i] = re.sub('\n', '', re.sub('\r', '', list[i]))
+            data.append(list)
 
-    with open(root+'/Data/Didongthongminh.csv', mode='a', encoding='utf-8', newline='') as file:
+    with open('/Users/lap60570/Documents/HUST/20212/Tích hợp dữ liệu/BTL/CrawlData/Didongthongminh.csv', mode='a', encoding='utf-8', newline='') as file:
             writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(['url', 'title', 'price', 'producer', 'size', 'pin', 'chip', 'ram', 'memory'])
+            writer.writerow(['url', 'title', 'pathImg', 'price', 'producer', 'size', 'pin', 'chip', 'ram', 'memory'])
             for row in data:
                 writer.writerow(row)
 
 crawlData3()
+url = 'https://didongthongminh.vn/iphone-13-pro-max' 
+response = requests.get(url)
+soup = BeautifulSoup(response.content, "html.parser")
 
+#path = soup.find('ul', id='imageGallery').findAll('li', class_='color_rm')[0].attrs['data-thumb']
+#print(path)
