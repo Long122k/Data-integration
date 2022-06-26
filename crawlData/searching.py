@@ -1,19 +1,47 @@
 import csv
+from operator import index
+from textwrap import indent
+import pandas as pd
+import numpy as np
 from pyvi import ViTokenizer
+from sympy import re
 
-reader = csv.DictReader(open("crawlData/Data/invertedIndex.csv"))
-
-dict = {}
-for raw in reader:
-    dict = raw
+def convertStringToSet(dict, token):
+    if not token in dict:
+        return set()
+    tmp = dict[token].replace('[', '').replace(']', '').replace(',', '').split(' ');
+    return set(tmp)
 
 def fullTextSearch(input):
+    reader = csv.DictReader(open("crawlData/Data/invertedIndex.csv"))
+    dict = {}
+    for raw in reader:
+        dict = raw
+
     text = input.lower()
     text = ViTokenizer.tokenize(text).split(' ')
-    print(dict[text[1]], type(dict[text[1]]))
-    set = set(dict[text[1]])
-    print(set, type(set))
+    
+    indexs = convertStringToSet(dict, text[0])
+
+    for token in text:
+        list = convertStringToSet(dict, token)
+        indexs = indexs & list
+
+    getDataByIndex(indexs)
 
 
-text = "Điện thoại iphone 13"
+def getDataByIndex(indexs):
+    df = pd.read_csv("crawlData/Data/dataTokenize.csv")
+    list = []
+    for idx in indexs:
+        idx = int(idx)
+        list.append(df[idx:(idx+1)])
+    print(list)
+    return list
+
+
+
+
+
+text = "Điện thoại iphone 12"
 fullTextSearch(text)

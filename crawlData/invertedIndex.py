@@ -11,18 +11,19 @@ dict = {}
 
 for i in range(0, num):
     try:
-        chain = demo[i].split(' ')
+        chain = (demo[i].lower()).split(' ')
     except:
         break
     for token in chain:
         if not token in dict:
-            dict[token] = (i,)
+            dict[token] = [i]
         else:
-            dict[token] = dict[token] + (i,)
+            dict[token].append(i)
     
+keys = [key for key in dict]
+
 with open('crawlData/Data/invertedIndex.csv', 'w') as f:
-    writer = csv.DictWriter(f, ['token', 'index'])
+    writer = csv.DictWriter(f, keys)
     writer.writeheader()
-    for key in dict:
-        writer.writerow({'token': key, 'index': dict[key]})
+    writer.writerow(dict)
         
