@@ -27,5 +27,3 @@ class TGDDSpider(scrapy.Spider):
     yield scrapy.Request(list_phone_urls[0], self)
     pass
 
-
-  def parse_
