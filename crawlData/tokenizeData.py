@@ -6,7 +6,7 @@ contents = df['title']
 from pyvi import ViTokenizer
 for id, content in enumerate(contents):
   try: 
-    tmp = ViTokenizer.tokenize(content)
+    tmp = ViTokenizer.tokenize(content.lower())
     contents[id] = tmp
   except:
     content = None
@@ -14,7 +14,7 @@ for id, content in enumerate(contents):
 contents = df['chip']
 for id, content in enumerate(contents):
   try: 
-    tmp = ViTokenizer.tokenize(content)
+    tmp = ViTokenizer.tokenize(content.lower())
     contents[id] = tmp
   except:
     content = None
