@@ -1,0 +1,12 @@
+{{#each items}}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{this.image}}" alt="Card image cap" />
+    <div class="card-body">
+      <p class="card-text">{{this.Price}}</p>
+      <p class="card-title">{{this.phone_name}}</p>
+      <a href="{{this.link}}">Đi tới trang web</a>
+    </div>
+  </div>
+  <br />
+
+{{/each}}
