@@ -1,3 +1,4 @@
+const axios = require("axios");
 const express = require("express");
 const hbs = require("express-handlebars");
 const path = require("path");
@@ -21,8 +22,17 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  res.render("home", { items: db, values: req.body });
-  console.log(req.body);
+  // const text_search = `${req.body.search} ${req.body.branch} ${req.body.storage} ${req.body.size} ${req.body.camera} ${req.body.price} ${req.body.ram}`;
+  var data = Object.values(req.body);
+  var results = data.filter((item) => {
+    return item !== "None";
+  });
+  var items = [];
+  const text_search = results.join(" ");
+  axios.get(`http://localhost:8001/${text_search}`).then(function (resp) {
+    items = resp.data;
+    return res.render("home", { items: items });
+  });
 });
 
 app.listen(3000, () => {

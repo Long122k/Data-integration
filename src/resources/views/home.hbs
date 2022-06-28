@@ -1,13 +1,12 @@
 {{#each items}}
-  <p>{{this.url}}</p>
-{{/each}}
-
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap" />
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to
-      additional content.</p>
-    <a href="#">Go somewhere</a>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{this.image}}" alt="Card image cap" />
+    <div class="card-body">
+      <p class="card-text">{{this.Price}}</p>
+      <p class="card-title">{{this.phone_name}}</p>
+      <a href="{{this.link}}">Đi tới trang web</a>
+    </div>
   </div>
-</div>
+  <br />
+
+{{/each}}

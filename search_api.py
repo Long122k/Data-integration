@@ -1,4 +1,4 @@
-from xxlimited import Str
+from cmath import isnan
 from fastapi import FastAPI
 from crawlData.searching import fullTextSearch
 import json
@@ -16,10 +16,14 @@ async def read_user(user_id: str):
     list_a = fullTextSearch(user_id)
     list_b = []
     label = ['link', 'phone_name', 'price', 'image', 'branch', 'chip', 'ram', 'rom']
-    # print(list_a)
+    print(len(list_a))
     for a in list_a:
         dict2 = {}
         for i in range(0, 8):
-            dict2[label[i]]=a[0][i+1]
+            if a[0][i+1].isnan():
+                dict2[label[i]]='No information'
+            else:
+                dict2[label[i]]=a[0][i+1]
         list_b.append(dict2)
+    print(len(list_b))
     return list_b

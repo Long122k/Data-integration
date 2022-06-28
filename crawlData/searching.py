@@ -32,16 +32,14 @@ def fullTextSearch(input):
 
 def getDataByIndex(indexs):
     df = pd.read_csv("crawlData/Data/dataTokenize.csv")
-    list = []
+    list1 = []
     for idx in indexs:
         idx = int(idx)
-        list.append(df[idx:(idx+1)])
-    # print(np.array(list[0]))
-    return np.array(list[0:2])
+        list1.append(df[idx:(idx+1)])
+    print(np.array(list1[0:(len(list1)-1)]))
+    # print(len(list1))
+    return np.array(list1[0:(len(list1))])
 
 
-
-
-
-text = "Điện thoại iphone 12"
-fullTextSearch(text)
+# text = "samsung"
+# fullTextSearch(text)
