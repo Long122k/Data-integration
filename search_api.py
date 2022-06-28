@@ -9,7 +9,8 @@ app = FastAPI()
 # @app.get("/users/me") # <- here
 # async def read_user_me():
 #     return {"user_id": "the current user"}
-
+def isNaN(num):
+    return num!= num
 
 @app.get("/{user_id}") # <- and here
 async def read_user(user_id: str):
@@ -20,7 +21,7 @@ async def read_user(user_id: str):
     for a in list_a:
         dict2 = {}
         for i in range(0, 8):
-            if a[0][i+1].isnan():
+            if isNaN(a[0][i+1]):
                 dict2[label[i]]='No information'
             else:
                 dict2[label[i]]=a[0][i+1]
