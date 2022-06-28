@@ -27,7 +27,7 @@ def fullTextSearch(input):
         list = convertStringToSet(dict, token)
         indexs = indexs & list
 
-    getDataByIndex(indexs)
+    return getDataByIndex(indexs)
 
 
 def getDataByIndex(indexs):
@@ -36,8 +36,8 @@ def getDataByIndex(indexs):
     for idx in indexs:
         idx = int(idx)
         list.append(df[idx:(idx+1)])
-    print(np.array(list))
-    return np.array(list)
+    # print(np.array(list[0]))
+    return np.array(list[0:2])
 
 
 
