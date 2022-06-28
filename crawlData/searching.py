@@ -36,8 +36,8 @@ def getDataByIndex(indexs):
     for idx in indexs:
         idx = int(idx)
         list.append(df[idx:(idx+1)])
-    print(list)
-    return list
+    print(np.array(list))
+    return np.array(list)
 
 
 
