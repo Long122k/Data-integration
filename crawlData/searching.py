@@ -6,7 +6,33 @@ import numpy as np
 from pyvi import ViTokenizer
 from sympy import re
 
+
+def calJaccardMeasure(s1, s2):
+    s1 = '#'+s1+'#'
+    s2 = '#'+s2+''
+    set1 = set()
+    set2 = set()
+
+    for i in range(len(s1)-1):
+        set1.add(s1[i:(i+2)])
+
+    for i in range(len(s2)-1):
+        set2.add(s2[i:(i+2)])
+    
+    return (len(set1 & set2) / len(set1 | set2))
+
+def spellingCorrection(dict, string):
+    dist = -1
+    result = ''
+    for key in dict:
+        tmp = calJaccardMeasure(key, string)
+        if tmp > dist:
+            dist = tmp
+            result = key
+    return result 
+
 def convertStringToSet(dict, token):
+    print("===== ", token)
     if not token in dict:
         return set()
     tmp = dict[token].replace('[', '').replace(']', '').replace(',', '').split(' ');
@@ -19,11 +45,19 @@ def fullTextSearch(input):
         dict = raw
 
     text = input.lower()
-    text = ViTokenizer.tokenize(text).split(' ')
+    #text = ViTokenizer.tokenize(text).split(' ')
+    text = text.split(' ')
+    print(text)
+
+    tmp = text[0]
+    if not tmp in dict:
+        tmp = spellingCorrection(dict, tmp)
     
-    indexs = convertStringToSet(dict, text[0])
+    indexs = convertStringToSet(dict, tmp)
 
     for token in text:
+        if not token in dict:
+            token = spellingCorrection(dict, token)
         list = convertStringToSet(dict, token)
         indexs = indexs & list
 
@@ -37,9 +71,9 @@ def getDataByIndex(indexs):
         idx = int(idx)
         list1.append(df[idx:(idx+1)])
     print(np.array(list1[0:(len(list1)-1)]))
-    # print(len(list1))
+    print(len(list1))
     return np.array(list1[0:(len(list1))])
 
 
-# text = "samsung"
-# fullTextSearch(text)
+text = " điện thoạt xamxung"
+fullTextSearch(text)
