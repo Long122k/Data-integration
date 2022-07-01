@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/lap60570/Documents/HUST/20212/Tích hợp dữ liệu/BTL/CrawlData/Data/data.csv")
+df = pd.read_csv("crawlData/Data/Data.csv")
 contents = df['title']
 
 from pyvi import ViTokenizer
@@ -22,4 +22,4 @@ for id, content in enumerate(contents):
 list = ['url', 'title', 'price', 'pathImg', 'producer', 'chip', 'ram', 'memory']
 df = df[list]
 
-df.to_csv("/Users/lap60570/Documents/HUST/20212/Tích hợp dữ liệu/BTL/CrawlData/Data/dataTokenize.csv")
+df.to_csv("crawlData/Data/dataTokenize.csv")

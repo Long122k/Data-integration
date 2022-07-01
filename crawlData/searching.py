@@ -32,7 +32,6 @@ def spellingCorrection(dict, string):
     return result 
 
 def convertStringToSet(dict, token):
-    print("===== ", token)
     if not token in dict:
         return set()
     tmp = dict[token].replace('[', '').replace(']', '').replace(',', '').split(' ');
@@ -44,10 +43,11 @@ def fullTextSearch(input):
     for raw in reader:
         dict = raw
 
-    text = input.lower()
-    #text = ViTokenizer.tokenize(text).split(' ')
-    text = text.split(' ')
-    print(text)
+    input = input.lower()
+    text = []
+    for token in input.split(' '):
+        if token != '':
+            text.append(token)
 
     tmp = text[0]
     if not tmp in dict:
@@ -55,25 +55,31 @@ def fullTextSearch(input):
     
     indexs = convertStringToSet(dict, tmp)
 
+    textCorrect = ''
+
     for token in text:
         if not token in dict:
             token = spellingCorrection(dict, token)
+        textCorrect = textCorrect + ' ' + token
         list = convertStringToSet(dict, token)
         indexs = indexs & list
 
-    return getDataByIndex(indexs)
+    print(textCorrect)
+
+    return getDataByIndex(indexs), textCorrect
 
 
 def getDataByIndex(indexs):
-    df = pd.read_csv("crawlData/Data/dataTokenize.csv")
+    df = pd.read_csv("crawlData/Data/Data.csv")
     list1 = []
     for idx in indexs:
         idx = int(idx)
         list1.append(df[idx:(idx+1)])
-    print(np.array(list1[0:(len(list1)-1)]))
+    
+    #print(np.array(list1[0:(len(list1)-1)]))
     print(len(list1))
     return np.array(list1[0:(len(list1))])
 
 
-text = " điện thoạt xamxung"
+text = "  điện   thoạt xamxung  "
 fullTextSearch(text)
