@@ -6,6 +6,7 @@ import numpy as np
 from pyvi import ViTokenizer
 from sympy import re
 
+MAX_N = 20
 
 def calJaccardMeasure(s1, s2):
     s1 = '#'+s1+'#'
@@ -32,7 +33,6 @@ def spellingCorrection(dict, string):
     return result 
 
 def convertStringToSet(dict, token):
-    print("===== ", token)
     if not token in dict:
         return set()
     tmp = dict[token].replace('[', '').replace(']', '').replace(',', '').split(' ');
@@ -45,9 +45,7 @@ def fullTextSearch(input):
         dict = raw
 
     text = input.lower()
-    #text = ViTokenizer.tokenize(text).split(' ')
-    text = text.split(' ')
-    print(text)
+    text = input.split()
 
     tmp = text[0]
     if not tmp in dict:
@@ -55,25 +53,65 @@ def fullTextSearch(input):
     
     indexs = convertStringToSet(dict, tmp)
 
+    textCorrect = ''
+
     for token in text:
         if not token in dict:
             token = spellingCorrection(dict, token)
+        textCorrect = textCorrect + ' ' + token
         list = convertStringToSet(dict, token)
         indexs = indexs & list
 
-    return getDataByIndex(indexs)
+    if len(indexs) > MAX_N:
+        indexs = getTopResult(indexs, text)
+
+    print(textCorrect)
+    return getDataByIndex(indexs), textCorrect
 
 
 def getDataByIndex(indexs):
-    df = pd.read_csv("crawlData/Data/dataTokenize.csv")
+    df = pd.read_csv("crawlData/Data/Data.csv")
     list1 = []
     for idx in indexs:
         idx = int(idx)
         list1.append(df[idx:(idx+1)])
-    print(np.array(list1[0:(len(list1)-1)]))
+    
+    #print(np.array(list1[0:(len(list1)-1)]))
     print(len(list1))
     return np.array(list1[0:(len(list1))])
 
+def getTopResult(indexs, text):
+    tf_idf = pd.read_csv('crawlData/Data/tf_idf.csv')
+    list = []
+    for idx in indexs:
+        rank = 0
+        for token in text:
+            try:
+                rank += tf_idf[token][idx:(idx+1)]
+            except:
+                rank -= 0.1
+        list.append(rank)
+    
+    arr = []
+    for i in range(len(list)): 
+        arr.append((list[i], i))
 
-text = " điện thoạt xamxung"
+    def take_first(item):
+        return item[0]
+
+    sorted_list = sorted(arr, key=take_first, reverse=True)
+
+    listIndex = []
+    for idx in indexs:
+        listIndex.append(idx)
+    
+    arr2 = []
+    for idx in range(MAX_N):
+        item = sorted_list[idx]
+        arr2.append(listIndex[item[1]])
+
+    return arr2
+    
+
+text = "  điện   thoạt  xamxung  "
 fullTextSearch(text)
