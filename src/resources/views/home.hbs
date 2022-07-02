@@ -1,5 +1,7 @@
-{{#each items}}
-  <div class="card" style="width: 18rem;">
+{{! <div class="row"> }}
+<!-- Single Product -->
+{{! <div class="col-md-6 col-lg-4 col-xl-3"> }}
+{{!-- <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="{{this.image}}" alt="Card image cap" />
     <div class="card-body">
       <p class="card-text">{{this.Price}}</p>
@@ -7,6 +9,105 @@
       <a href="{{this.link}}">Đi tới trang web</a>
     </div>
   </div>
-  <br />
+  {{! </div>
+  </div> }}
+  <br /> --}}
 
-{{/each}}
+<div class="container mt-100">
+
+  <div class="row">
+    {{#each items}}
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card mb-30"><a
+            class="card-img-tiles"
+            href="{{this.link}}"
+            data-abc="true"
+          >
+            <div class="inner">
+              <div class="main-img"><img
+                  src="{{this.image}}"
+                  alt="Category"
+                  height="200"
+                  width="200"
+                /></div>
+              {{! <div class="thumblist"><img
+                  src="https://i.imgur.com/ILEU18M.jpg"
+                  alt="Category"
+                /><img
+                  src="https://i.imgur.com/2kePJmX.jpg"
+                  alt="Category"
+                /></div> }}
+            </div>
+          </a>
+          <div class="card-body text-center">
+            <h4 class="card-title">{{this.phone_name}}</h4>
+            <p class="text-muted">{{this.Price}}</p><a
+              class="btn btn-outline-primary btn-sm"
+              href="{{this.link}}"
+              data-abc="true"
+            >View Products</a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+    {{! <div class="col-md-4 col-sm-6">
+        <div class="card mb-30"><a
+            class="card-img-tiles"
+            href="#"
+            data-abc="true"
+          >
+            <div class="inner">
+              <div class="main-img"><img
+                  src="https://i.imgur.com/uRgdVY1.jpg"
+                  alt="Category"
+                /></div>
+              <div class="thumblist"><img
+                  src="https://i.imgur.com/VwSKS7A.jpg"
+                  alt="Category"
+                /><img
+                  src="https://i.imgur.com/gTvZ2H5.jpg"
+                  alt="Category"
+                /></div>
+            </div></a>
+          <div class="card-body text-center">
+            <h4 class="card-title">Mobiles</h4>
+            <p class="text-muted">Starting from $50</p><a
+              class="btn btn-outline-primary btn-sm"
+              href="#"
+              data-abc="true"
+            >View Products</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card mb-30"><a
+            class="card-img-tiles"
+            href="#"
+            data-abc="true"
+          >
+            <div class="inner">
+              <div class="main-img"><img
+                  src="https://i.imgur.com/0jO40CF.jpg"
+                  alt="Category"
+                /></div>
+              <div class="thumblist"><img
+                  src="https://i.imgur.com/dWYAg41.jpg"
+                  alt="Category"
+                /><img
+                  src="https://i.imgur.com/5oQEZSC.jpg"
+                  alt="Category"
+                /></div>
+            </div></a>
+          <div class="card-body text-center">
+            <h4 class="card-title">Accessories</h4>
+            <p class="text-muted">Starting from $9</p><a
+              class="btn btn-outline-primary btn-sm"
+              href="#"
+              data-abc="true"
+            >View Products</a>
+          </div>
+        </div>
+      </div> }}
+  </div>
+</div>
