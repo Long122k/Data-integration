@@ -38,7 +38,7 @@ def convertStringToSet(dict, token):
     tmp = dict[token].replace('[', '').replace(']', '').replace(',', '').split(' ');
     return set(tmp)
 
-def fullTextSearch(input):
+def fullTextSearch(input, decrease = False):
     reader = csv.DictReader(open("crawlData/Data/invertedIndex.csv"))
     dict = {}
     for raw in reader:
@@ -65,8 +65,8 @@ def fullTextSearch(input):
     if len(indexs) > MAX_N:
         indexs = getTopResult(indexs, text)
 
-    print(textCorrect)
-    return getDataByIndex(indexs), textCorrect
+    data = getDataByIndex(indexs)
+    return sortListResult(data), textCorrect
 
 
 def getDataByIndex(indexs):
@@ -77,7 +77,7 @@ def getDataByIndex(indexs):
         list1.append(df[idx:(idx+1)])
     
     #print(np.array(list1[0:(len(list1)-1)]))
-    print(len(list1))
+    #   print(len(list1))
     return np.array(list1[0:(len(list1))])
 
 def getTopResult(indexs, text):
@@ -113,5 +113,20 @@ def getTopResult(indexs, text):
     return arr2
     
 
+def getNumber(string): 
+    number = '';
+    for c in string:
+       if c.isnumeric():
+            number = number + c;
+
+    return int(number)
+
+def sortListResult(data, decrease = True):
+    def get_price(item):
+        return getNumber(item[0][3]) #price
+
+    sorted_list = sorted(data, key=get_price, reverse=decrease)
+    return sorted_list
+
 text = "  điện   thoạt  xamxung  "
-fullTextSearch(text)
+print(fullTextSearch(text))

@@ -12,7 +12,7 @@ def getPathImg(list):
     newList = []
     for path in list:
         try:
-            path = path.replace('{', '').replace('}','').replace(',','').split(' ')[0].replace('\'', '')
+            path = path.replace('{', '').replace('}','').split(',')[0].replace('\'', '').replace(' ', '')
         except:
             print(path)
         newList.append(path)
