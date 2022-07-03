@@ -16,7 +16,14 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded());
 
 // db.connect();
-
+function getNumber(string) {
+  let number = "";
+  for (let i in string) {
+    let c = string[i];
+    if ((c >= 0 && c <= 9) || c == ".") number = number + c;
+  }
+  return number;
+}
 app.get("/", function (req, res) {
   res.render("home");
 });
@@ -31,7 +38,15 @@ app.post("/", function (req, res) {
   const text_search = results.join(" ");
   axios.get(`http://localhost:8001/${text_search}`).then(function (resp) {
     items = resp.data;
-    return res.render("home", { items: items });
+    // req.body = items[1];
+    // items[3] = getNumber(items[3]);
+    for (let i in items[0]) {
+      items[0][i]["price"] = getNumber(items[0][i]["price"]);
+      // console.log(items[i]);
+    }
+    // console.log(items[3]);
+
+    return res.render("home", { items: items[0], values: items[1] });
   });
 });
 

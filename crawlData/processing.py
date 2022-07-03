@@ -12,7 +12,7 @@ def getPathImg(list):
     newList = []
     for path in list:
         try:
-            path = path.replace('{', '').replace('}','').replace(',','').split(' ')[0].replace('\'', '')
+            path = path.replace('{', '').replace('}','').split(',')[0].replace('\'', '').replace(' ', '')
         except:
             print(path)
         newList.append(path)
@@ -22,6 +22,13 @@ def getPathImg(list):
 for file in files:
     data = pd.read_csv('crawlData/rawData/'+file+'.csv')
     data['pathImg'] = getPathImg(data['pathImg'])
+    # for item in data['pathImg']:
+    #     try:
+    #         i = item.index(',')
+    #         item = item[0:(i-1)] + "'"
+    #         item.remove(",")
+    #     except:
+    #         pass
     df.append(data[list])
 
 df = pd.concat(df, ignore_index=True)
