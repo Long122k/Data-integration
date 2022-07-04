@@ -66,7 +66,7 @@ def fullTextSearch(input, decrease = False):
         indexs = getTopResult(indexs, text)
 
     data = getDataByIndex(indexs)
-    return sortListResult(data), textCorrect
+    return sortListResult(data, decrease), textCorrect
 
 
 def getDataByIndex(indexs):
@@ -129,4 +129,4 @@ def sortListResult(data, decrease = True):
     return sorted_list
 
 text = "  điện   thoạt  xamxung  "
-print(fullTextSearch(text))
+print(fullTextSearch(text, False))
