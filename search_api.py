@@ -13,9 +13,10 @@ app = FastAPI()
 def isNaN(num):
     return num!= num
 
-@app.get("/{user_id}") # <- and here
-async def read_user(user_id: str):
-    list_a = fullTextSearch(user_id)[0]
+@app.get("/{name}") # <- and here
+async def read_user(name: str):
+    # name = name.encode('utf-8')
+    list_a = fullTextSearch(name)[0]
     list_b = []
     label = ['link', 'phone_name', 'price', 'image', 'branch', 'chip', 'ram', 'rom']
     print(len(list_a))
@@ -29,24 +30,5 @@ async def read_user(user_id: str):
         list_b.append(dict2)
     print(len(list_b))
     print(list_b)
-    return list_b, {"query": fullTextSearch(user_id)[1]}
+    return list_b, {"query": fullTextSearch(name)[1]}
     # print(list_a)
-
-@app.get("/{user_id}/{boo}") # <- and here
-async def read_user(user_id: str, boo: bool):
-    list_a = fullTextSearch(user_id, boo)[0]
-    list_b = []
-    print(user_id)
-    label = ['link', 'phone_name', 'price', 'image', 'branch', 'chip', 'ram', 'rom']
-    print(len(list_a))
-    for a in list_a:
-        dict2 = {}
-        for i in range(0, 8):
-            if isNaN(a[0][i+2]):
-                dict2[label[i]]='No information'
-            else:
-                dict2[label[i]]=a[0][i+2]
-        list_b.append(dict2)
-    print(len(list_b))
-    print(list_b)
-    return list_b, {"query": fullTextSearch(user_id)[1]}
