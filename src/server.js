@@ -73,9 +73,13 @@ app.post("/", function (req, res) {
 
   const text_search = req.body.search;
   // console.log(text_search);
-  link = `http://localhost:8001/${text_search}`;
+  // link = `http://localhost:8001/${text_search}`;
+  const link = `http://localhost:8001`;
   console.log(link);
-  axios.get(link).then(function (resp) {
+  const data = {
+    name: text_search,
+  };
+  axios.post(link, data).then(function (resp) {
     items = resp.data;
     console.log(items[0]);
     // req.body = items[1];
