@@ -1,3 +1,4 @@
+from cmath import nan
 import pandas as pd
 import numpy as np
 from sympy import re
@@ -6,7 +7,6 @@ files = ['24hstore', 'CellPhones', 'clickbuy', 'didongmango', 'Didongthongminh',
         'hnammobile', 'hoanghamobile', 'NguyenKim', 'thegioididong']
 
 list = ['url', 'title', 'price', 'pathImg', 'producer', 'chip', 'ram', 'memory']
-df = []
 
 def getPathImg(list):
     newList = []
@@ -19,19 +19,27 @@ def getPathImg(list):
     return newList
     
 
-for file in files:
-    data = pd.read_csv('crawlData/rawData/'+file+'.csv')
-    data['pathImg'] = getPathImg(data['pathImg'])
-    # for item in data['pathImg']:
-    #     try:
-    #         i = item.index(',')
-    #         item = item[0:(i-1)] + "'"
-    #         item.remove(",")
-    #     except:
-    #         pass
-    df.append(data[list])
+def processImgPath():
+    df = []
+    for file in files:
+        data = pd.read_csv('crawlData/rawData/'+file+'.csv')
+        data['pathImg'] = getPathImg(data['pathImg'])
+        df.append(data[list])
+    df = pd.concat(df, ignore_index=True)
+    df.to_csv('crawlData/Data/Data.csv')
 
-df = pd.concat(df, ignore_index=True)
-df.to_csv('crawlData/Data/Data.csv')
+def dropMissingData():
+    df = pd.read_csv('crawlData/Data/Data.csv')
+    indexs = []
+    i = 0
+    for obj in df['price']:
+        if issubclass(type(obj), float):
+            indexs.append(i)
+        i += 1
+    
+    df = df.drop(indexs)
+    print(df.shape)
+    df = pd.concat([df], ignore_index=True)
+    df.to_csv('crawlData/Data/Data.csv')
 
-
+dropMissingData()
