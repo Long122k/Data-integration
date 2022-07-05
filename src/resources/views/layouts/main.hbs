@@ -22,7 +22,7 @@
             <form action="/" method="POST">
               <div class="row g-3 mt-2">
 
-                <div class="row-md-8">
+                <div class="col-md-9">
                   <input
                     type="text"
                     id="search_text"
@@ -31,6 +31,15 @@
                     placeholder="Nhập tên điện thoại cần tìm. Ví dụ: Iphone 12"
                     value="{{#if values}}{{values}}{{/if}}"
                   />
+                </div>
+                <div class="col-md-2 right">
+                  <button
+                    type="submit"
+                    class="btn btn-secondary btn-block"
+                    id="btn"
+                  >
+                    Tìm kiếm
+                  </button>
                 </div>
                 <div class="col-md-3">
 
@@ -44,17 +53,7 @@
                     <option value="desc">Giá giảm dần</option>
                   </select>
                 </div>
-                <div class="col-md-2 right">
-                  <button
-                    type="submit"
-                    class="btn btn-secondary btn-block"
-                    id="btn"
-                    {{! style="float:right; position: absolute; left: 600;" }}
-                  >
-                    Tìm kiếm
-
-                  </button>
-                </div>
+                
 
               </div>
             </form>

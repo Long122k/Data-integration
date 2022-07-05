@@ -94,7 +94,12 @@ app.post("/", function (req, res) {
     array.map((item) => {
       item.price = formatNumber(item.price);
     });
-    return res.render("home", { items: array, values: items[1].query });
+    result = "Hiển thị kết quả cho từ khóa: ";
+    return res.render("home", {
+      items: array,
+      text: result + items[1].query,
+      values: req.body.search,
+    });
   });
 });
 

@@ -22,10 +22,10 @@ async def read_user(user_id: str):
     for a in list_a:
         dict2 = {}
         for i in range(0, 8):
-            if isNaN(a[0][i+1]):
+            if isNaN(a[0][i+2]):
                 dict2[label[i]]='No information'
             else:
-                dict2[label[i]]=a[0][i+1]
+                dict2[label[i]]=a[0][i+2]
         list_b.append(dict2)
     print(len(list_b))
     print(list_b)
@@ -42,10 +42,10 @@ async def read_user(user_id: str, boo: bool):
     for a in list_a:
         dict2 = {}
         for i in range(0, 8):
-            if isNaN(a[0][i+1]):
+            if isNaN(a[0][i+2]):
                 dict2[label[i]]='No information'
             else:
-                dict2[label[i]]=a[0][i+1]
+                dict2[label[i]]=a[0][i+2]
         list_b.append(dict2)
     print(len(list_b))
     print(list_b)
