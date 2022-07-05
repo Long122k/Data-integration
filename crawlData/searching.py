@@ -128,5 +128,5 @@ def sortListResult(data, decrease = True):
     sorted_list = sorted(data, key=get_price, reverse=decrease)
     return sorted_list
 
-text = "  điện   thoạt  xamxung  "
-print(fullTextSearch(text, False))
+text = "  điện   thoạt  vivo  "
+print(fullTextSearch(text, True))
