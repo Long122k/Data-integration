@@ -1,4 +1,5 @@
 from cmath import isnan
+from xmlrpc.client import boolean
 from fastapi import FastAPI
 from crawlData.searching import fullTextSearch
 import json
@@ -30,3 +31,22 @@ async def read_user(user_id: str):
     print(list_b)
     return list_b, {"query": fullTextSearch(user_id)[1]}
     # print(list_a)
+
+@app.get("/{user_id}/{boo}") # <- and here
+async def read_user(user_id: str, boo: bool):
+    list_a = fullTextSearch(user_id, boo)[0]
+    list_b = []
+    print(user_id)
+    label = ['link', 'phone_name', 'price', 'image', 'branch', 'chip', 'ram', 'rom']
+    print(len(list_a))
+    for a in list_a:
+        dict2 = {}
+        for i in range(0, 8):
+            if isNaN(a[0][i+1]):
+                dict2[label[i]]='No information'
+            else:
+                dict2[label[i]]=a[0][i+1]
+        list_b.append(dict2)
+    print(len(list_b))
+    print(list_b)
+    return list_b, {"query": fullTextSearch(user_id)[1]}
