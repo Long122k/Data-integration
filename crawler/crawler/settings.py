@@ -39,6 +39,22 @@ ROBOTSTXT_OBEY = True
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
 
+SPLASH_URL = 'http://localhost:8050'
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+COOKIES_ENABLED = True # Nếu cần dùng Cookie
+SPLASH_COOKIES_DEBUG = False
+SPIDER_MIDDLEWARES = {
+  'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+DOWNLOADER_MIDDLEWARES = {
+  'scrapy_splash.SplashCookiesMiddleware': 723,
+  'scrapy_splash.SplashMiddleware': 725,
+  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 400,
+}
+DOWNLOAD_DELAY = 10
+
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
