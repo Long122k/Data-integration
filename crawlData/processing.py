@@ -4,7 +4,7 @@ import numpy as np
 from sympy import re
 
 files = ['24hstore', 'CellPhones', 'clickbuy', 'didongmango', 'Didongthongminh', 'didongviet', 
-        'hnammobile', 'hoanghamobile', 'NguyenKim', 'thegioididong']
+        'hnammobile', 'hoanghamobile', 'NguyenKim', 'thegioididong', 'digiphone', 'mediamart', 'mobilecity', 'viettelstore']
 
 list = ['url', 'title', 'price', 'pathImg', 'producer', 'chip', 'ram', 'memory']
 

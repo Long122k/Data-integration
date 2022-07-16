@@ -9,8 +9,16 @@ from sympy import re
 MAX_N = 20
 
 def calJaccardMeasure(s1, s2):
-    s1 = '#'+s1+'#'
-    s2 = '#'+s2+''
+    try:
+        s1 = '#'+s1+'#'
+    except:
+        s1 = '##'
+
+    try:
+        s2 = '#'+s2+'#'
+    except:
+        s2 = '##'
+
     set1 = set()
     set2 = set()
 
@@ -70,14 +78,14 @@ def fullTextSearch(input, decrease = False):
 
 
 def getDataByIndex(indexs):
-    df = pd.read_csv("crawlData/Data/Data.csv")
+    df = pd.read_csv("crawlData/Data/newData.csv")
     list1 = []
     for idx in indexs:
         idx = int(idx)
         list1.append(df[idx:(idx+1)])
     
     #print(np.array(list1[0:(len(list1)-1)]))
-    #   print(len(list1))
+    #print(len(list1))
     return np.array(list1[0:(len(list1))])
 
 def getTopResult(indexs, text):
@@ -128,6 +136,6 @@ def sortListResult(data, decrease = True):
     sorted_list = sorted(data, key=get_price, reverse=decrease)
     return sorted_list
 
-# text = "xia nmi  "
+text = "điện thoạt xamsung"
 
-# print(fullTextSearch(text, True))
+#print(fullTextSearch(text, True))

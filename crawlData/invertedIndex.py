@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 import numpy as np
 
-df = pd.read_csv('crawlData/Data/Data.csv')
+df = pd.read_csv('crawlData/Data/newData.csv')
 demo = np.array(df['title'])
 
 num = len(demo)
